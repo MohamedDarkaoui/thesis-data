@@ -1,0 +1,7310 @@
+{
+  "info": {
+    "_postman_id": "9a707ca6-ee81-413c-a9d4-f81020284c84",
+    "name": "CONVERTED_languagetool_TEST",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33435539"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&filterDictionaryMatches=false",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "false"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&filterDictionaryMatches=true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=test%40test.de&apiKey=foo&filterDictionaryMatches=true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=test%40test.de&apiKey=foo&filterDictionaryMatches=false",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "false"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=two%40test.de&apiKey=foo-two&filterDictionaryMatches=false",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "false"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=two%40test.de&apiKey=foo-two&filterDictionaryMatches=true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/add",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "add"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=this&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=test%40test.de&apiKey=foo&filterDictionaryMatches=false",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "false"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=test%40test.de&apiKey=foo&filterDictionaryMatches=true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=two%40test.de&apiKey=foo-two&filterDictionaryMatches=true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=two%40test.de&apiKey=foo-two&filterDictionaryMatches=false",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "false"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/add",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "add"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=this&username=two@test.de&apiKey=foo-two",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=two%40test.de&apiKey=foo-two&filterDictionaryMatches=true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=I+wonder+if+this+errors+are+easy+to+fix.&username=two%40test.de&apiKey=foo-two&filterDictionaryMatches=false",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "I wonder if this errors are easy to fix."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            },
+            {
+              "key": "filterDictionaryMatches",
+              "value": "false"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/?text=a+test&language=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": [
+            {
+              "key": "text",
+              "value": "a test"
+            },
+            {
+              "key": "language",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/?text=a+test&language=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": [
+            {
+              "key": "text",
+              "value": "a test"
+            },
+            {
+              "key": "language",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Ein+kleiner+Test",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Ein kleiner Test"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Ein+kleiner+Test",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Ein kleiner Test"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.+Und+wieder+Erwarten+noch+was%3A+%C3%B6%C3%A4%C3%BC%C3%9F.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test. Und wieder Erwarten noch was: \u00f6\u00e4\u00fc\u00df."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.+Und+wieder+Erwarten+noch+was%3A+%C3%B6%C3%A4%C3%BC%C3%9F.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test. Und wieder Erwarten noch was: \u00f6\u00e4\u00fc\u00df."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=bla+%3Cscript%3E",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "bla <script>"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=bla+%3Cscript%3E",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "bla <script>"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.+Und+wieder+Erwarten+noch+was%3A+%C3%B6%C3%A4%C3%BC%C3%9F%2B+%C3%B6%C3%A4%C3%BC%C3%9F.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test. Und wieder Erwarten noch was: \u00f6\u00e4\u00fc\u00df+ \u00f6\u00e4\u00fc\u00df."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.+Und+wieder+Erwarten+noch+was%3A+%C3%B6%C3%A4%C3%BC%C3%9F%2B+%C3%B6%C3%A4%C3%BC%C3%9F.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test. Und wieder Erwarten noch was: \u00f6\u00e4\u00fc\u00df+ \u00f6\u00e4\u00fc\u00df."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=ro&disabledRules=HUNSPELL_RULE&text=bla+bla+%C8%99%C8%9B%C3%AE%C3%A2%C4%83+%C8%99%C8%9B%C3%AE%C3%A2%C4%83+%C8%99i+c%C3%A2teva+caractere+speciale",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "ro"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "bla bla \u0219\u021b\u00ee\u00e2\u0103 \u0219\u021b\u00ee\u00e2\u0103 \u0219i c\u00e2teva caractere speciale"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=ro&disabledRules=HUNSPELL_RULE&text=bla+bla+%C8%99%C8%9B%C3%AE%C3%A2%C4%83+%C8%99%C8%9B%C3%AE%C3%A2%C4%83+%C8%99i+c%C3%A2teva+caractere+speciale",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "ro"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "bla bla \u0219\u021b\u00ee\u00e2\u0103 \u0219\u021b\u00ee\u00e2\u0103 \u0219i c\u00e2teva caractere speciale"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=pl&disabledRules=HUNSPELL_RULE&text=M%C3%B3wi%C5%82a+d%C5%82ugo%2C+%C5%BCeby+tylko+m%C3%B3wi%C4%87+m%C3%B3wi%C4%87+d%C5%82ugo.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "pl"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "M\u00f3wi\u0142a d\u0142ugo, \u017ceby tylko m\u00f3wi\u0107 m\u00f3wi\u0107 d\u0142ugo."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=pl&disabledRules=HUNSPELL_RULE&text=M%C3%B3wi%C5%82a+d%C5%82ugo%2C+%C5%BCeby+tylko+m%C3%B3wi%C4%87+m%C3%B3wi%C4%87+d%C5%82ugo.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "pl"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "M\u00f3wi\u0142a d\u0142ugo, \u017ceby tylko m\u00f3wi\u0107 m\u00f3wi\u0107 d\u0142ugo."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "language=ro-RO&text=gre%C8%99it+gre%C8%99it",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "language=ro-RO&text=gre%C8%99it+gre%C8%99it",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/languages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "languages"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=Me+%26+you+you",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Me & you you"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/languages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "languages"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=Me+%26+you+you",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Me & you you"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Man+sollte+ihn+nicht+so+beraten.&motherTongue=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Man sollte ihn nicht so beraten."
+            },
+            {
+              "key": "motherTongue",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Man+sollte+ihn+nicht+so+beraten.&motherTongue=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Man sollte ihn nicht so beraten."
+            },
+            {
+              "key": "motherTongue",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=pl&disabledRules=HUNSPELL_RULE&text=To+jest+frywolne.&motherTongue=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "pl"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "To jest frywolne."
+            },
+            {
+              "key": "motherTongue",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=pl&disabledRules=HUNSPELL_RULE&text=To+jest+frywolne.&motherTongue=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "pl"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "To jest frywolne."
+            },
+            {
+              "key": "motherTongue",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test&motherTongue=de&disabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test&motherTongue=de&disabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test&motherTongue=de&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test&motherTongue=de&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+will+do+so&motherTongue=de&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will will do so"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+will+do+so&motherTongue=de&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will will do so"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+berate+you&motherTongue=de&enabledRules=EN_A_VS_AN&enabledOnly=yes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            },
+            {
+              "key": "enabledOnly",
+              "value": "yes"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+berate+you&motherTongue=de&enabledRules=EN_A_VS_AN&enabledOnly=yes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            },
+            {
+              "key": "enabledOnly",
+              "value": "yes"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&enabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&enabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&disabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&disabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&disabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&disabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=auto&disabledRules=HUNSPELL_RULE&text=This+is+a+test+of+the+language+detection.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "auto"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "This is a test of the language detection."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=auto&disabledRules=HUNSPELL_RULE&text=This+is+a+test+of+the+language+detection.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "auto"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "This is a test of the language detection."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=auto&disabledRules=HUNSPELL_RULE&text=This+is+a+test+of+the+language+detection.&preferredVariants=de-DE,en-GB",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "auto"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "This is a test of the language detection."
+            },
+            {
+              "key": "preferredVariants",
+              "value": "de-DE,en-GB"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=auto&disabledRules=HUNSPELL_RULE&text=This+is+a+test+of+the+language+detection.&preferredVariants=de-DE,en-GB",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "auto"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "This is a test of the language detection."
+            },
+            {
+              "key": "preferredVariants",
+              "value": "de-DE,en-GB"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=A+text.&sourceLanguage=de-DE&sourceText=Text",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "A text."
+            },
+            {
+              "key": "sourceLanguage",
+              "value": "de-DE"
+            },
+            {
+              "key": "sourceText",
+              "value": "Text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=A+text.&sourceLanguage=de-DE&sourceText=Text",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "A text."
+            },
+            {
+              "key": "sourceLanguage",
+              "value": "de-DE"
+            },
+            {
+              "key": "sourceText",
+              "value": "Text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Einq+Tesz+miit+fieln+Fehlan%2C+desshalb+sehee+laagnsam+bee+dr+Rechtschriebp%C3%BCrfung.+hir+stet+noc+mer+text+mt+nochh+meh+feheln.+vielleict+brucht+es+soagr+nohc+mehrr%2C+damt+es+klapt",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Einq Tesz miit fieln Fehlan, desshalb sehee laagnsam bee dr Rechtschriebp\u00fcrfung. hir stet noc mer text mt nochh meh feheln. vielleict brucht es soagr nohc mehrr, damt es klapt"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Einq+Tesz+miit+fieln+Fehlan%2C+desshalb+sehee+laagnsam+bee+dr+Rechtschriebp%C3%BCrfung.+hir+stet+noc+mer+text+mt+nochh+meh+feheln.+vielleict+brucht+es+soagr+nohc+mehrr%2C+damt+es+klapt",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Einq Tesz miit fieln Fehlan, desshalb sehee laagnsam bee dr Rechtschriebp\u00fcrfung. hir stet noc mer text mt nochh meh feheln. vielleict brucht es soagr nohc mehrr, damt es klapt"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/?text=foo&language=en-US&disabled=EN_A_VS_AN&enabledOnly=yes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": [
+            {
+              "key": "text",
+              "value": "foo"
+            },
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "disabled",
+              "value": "EN_A_VS_AN"
+            },
+            {
+              "key": "enabledOnly",
+              "value": "yes"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/?text=foo&language=en-US&disabled=EN_A_VS_AN&enabledOnly=yes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": [
+            {
+              "key": "text",
+              "value": "foo"
+            },
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "disabled",
+              "value": "EN_A_VS_AN"
+            },
+            {
+              "key": "enabledOnly",
+              "value": "yes"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/languagetool-api/v2/check?text=Test&language=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "languagetool-api",
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "text",
+              "value": "Test"
+            },
+            {
+              "key": "language",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/?text=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": [
+            {
+              "key": "text",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/healthcheck",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "healthcheck"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Einq+Tesz+miit+fieln+Fehlan%2C+desshalb+sehee+laagnsam+bee+dr+Rechtschriebp%C3%BCrfung.+hir+stet+noc+mer+text+mt+nochh+meh+feheln.+vielleict+brucht+es+soagr+nohc+mehrr%2C+damt+es+klapt",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Einq Tesz miit fieln Fehlan, desshalb sehee laagnsam bee dr Rechtschriebp\u00fcrfung. hir stet noc mer text mt nochh meh feheln. vielleict brucht es soagr nohc mehrr, damt es klapt"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/?language=de&disabledRules=HUNSPELL_RULE&text=no+ip+address+allowed%2C+so+this+cannot+work",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "no ip address allowed, so this cannot work"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=no+ip+address+allowed%2C+so+this+cannot+work",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "no ip address allowed, so this cannot work"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/?text=foo&language=en-US&disabled=EN_A_VS_AN&enabledOnly=yes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": [
+            {
+              "key": "text",
+              "value": "foo"
+            },
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "disabled",
+              "value": "EN_A_VS_AN"
+            },
+            {
+              "key": "enabledOnly",
+              "value": "yes"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=fr&disabledRules=HUNSPELL_RULE&text=C%27est+unx",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "fr"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "C'est unx"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=es&disabledRules=HUNSPELL_RULE&text=unx",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "es"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "unx"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=nl&disabledRules=HUNSPELL_RULE&text=unx",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "nl"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "unx"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Ein+kleiner+Test",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Ein kleiner Test"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.+Und+wieder+Erwarten+noch+was%3A+%C3%B6%C3%A4%C3%BC%C3%9F.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test. Und wieder Erwarten noch was: \u00f6\u00e4\u00fc\u00df."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=bla+%3Cscript%3E",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "bla <script>"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=ein+kleiner+test.+Und+wieder+Erwarten+noch+was%3A+%C3%B6%C3%A4%C3%BC%C3%9F%2B+%C3%B6%C3%A4%C3%BC%C3%9F.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "ein kleiner test. Und wieder Erwarten noch was: \u00f6\u00e4\u00fc\u00df+ \u00f6\u00e4\u00fc\u00df."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=ro&disabledRules=HUNSPELL_RULE&text=bla+bla+%C8%99%C8%9B%C3%AE%C3%A2%C4%83+%C8%99%C8%9B%C3%AE%C3%A2%C4%83+%C8%99i+c%C3%A2teva+caractere+speciale",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "ro"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "bla bla \u0219\u021b\u00ee\u00e2\u0103 \u0219\u021b\u00ee\u00e2\u0103 \u0219i c\u00e2teva caractere speciale"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=pl&disabledRules=HUNSPELL_RULE&text=M%C3%B3wi%C5%82a+d%C5%82ugo%2C+%C5%BCeby+tylko+m%C3%B3wi%C4%87+m%C3%B3wi%C4%87+d%C5%82ugo.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "pl"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "M\u00f3wi\u0142a d\u0142ugo, \u017ceby tylko m\u00f3wi\u0107 m\u00f3wi\u0107 d\u0142ugo."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "language=ro-RO&text=gre%C8%99it+gre%C8%99it",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/languages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "languages"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=Me+%26+you+you",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Me & you you"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de&disabledRules=HUNSPELL_RULE&text=Man+sollte+ihn+nicht+so+beraten.&motherTongue=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "Man sollte ihn nicht so beraten."
+            },
+            {
+              "key": "motherTongue",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=pl&disabledRules=HUNSPELL_RULE&text=To+jest+frywolne.&motherTongue=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "pl"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "To jest frywolne."
+            },
+            {
+              "key": "motherTongue",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+berate+you&motherTongue=de",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test&motherTongue=de&disabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test&motherTongue=de&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+will+do+so&motherTongue=de&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will will do so"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=We+will+berate+you&motherTongue=de&enabledRules=EN_A_VS_AN&enabledOnly=yes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "We will berate you"
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            },
+            {
+              "key": "enabledOnly",
+              "value": "yes"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&enabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&disabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&text=This+is+an+test.+We+will+will+do+so.&motherTongue=de&disabledRules=EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE&enabledRules=EN_A_VS_AN",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "text",
+              "value": "This is an test. We will will do so."
+            },
+            {
+              "key": "motherTongue",
+              "value": "de"
+            },
+            {
+              "key": "disabledRules",
+              "value": "EN_A_VS_AN,ENGLISH_WORD_REPEAT_RULE"
+            },
+            {
+              "key": "enabledRules",
+              "value": "EN_A_VS_AN"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=auto&disabledRules=HUNSPELL_RULE&text=This+is+a+test+of+the+language+detection.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "auto"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "This is a test of the language detection."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=auto&disabledRules=HUNSPELL_RULE&text=This+is+a+test+of+the+language+detection.&preferredVariants=de-DE,en-GB",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "auto"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "This is a test of the language detection."
+            },
+            {
+              "key": "preferredVariants",
+              "value": "de-DE,en-GB"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&text=A+text.&sourceLanguage=de-DE&sourceText=Text",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "text",
+              "value": "A text."
+            },
+            {
+              "key": "sourceLanguage",
+              "value": "de-DE"
+            },
+            {
+              "key": "sourceText",
+              "value": "Text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22text%22%3A+%22This+is+an+test.%22%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"text\": \"This is an test.\"}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22text%22%3A+%22This+is+an+test.%22%2C+%22metaData%22%3A+%7B%7D%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"text\": \"This is an test.\", \"metaData\": {}}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22text%22%3A+%22This+is+an+test.%22%2C+%22metaData%22%3A+%7B%22key%22%3A+%22val%22%7D%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"text\": \"This is an test.\", \"metaData\": {\"key\": \"val\"}}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22text%22%3A+%22This+is+an+test.%22%2C+%22metaData%22%3A+%7B%22key%22%3A+%22val%22%2C+%22EmailToAddress%22%3A+%22My+name+%3Cfoo%40bar.org%3E%22%7D%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"text\": \"This is an test.\", \"metaData\": {\"key\": \"val\", \"EmailToAddress\": \"My name <foo@bar.org>\"}}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22text%22%3A+%22This+is+a+test.%22%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"text\": \"This is a test.\"}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22annotation%22%3A+%5B%7B%22text%22%3A+%22This+is+%22%7D%2C+%7B%22markup%22%3A+%22%3Cxyz%3E%22%7D%2C+%7B%22text%22%3A+%22an+test%22%7D%2C+%7B%22markup%22%3A+%22%3C%2Fxyz%3E%22%7D%2C+%7B%22text%22%3A+%22.+Yet+another+error+error.%22%7D%5D%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"annotation\": [{\"text\": \"This is \"}, {\"markup\": \"<xyz>\"}, {\"text\": \"an test\"}, {\"markup\": \"</xyz>\"}, {\"text\": \". Yet another error error.\"}]}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22annotation%22%3A+%5B%7B%22text%22%3A+%22This+is+a+test.%22%7D%2C+%7B%22markup%22%3A+%22%3Cp%3E%22%2C+%22interpretAs%22%3A+%22%5Cn%5Cn%22%7D%2C%7B%22text%22%3A+%22Another+text.%22%7D%5D%7D%22",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"annotation\": [{\"text\": \"This is a test.\"}, {\"markup\": \"<p>\", \"interpretAs\": \"\\n\\n\"},{\"text\": \"Another text.\"}]}\""
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22annotation%22%3A+%5B%7B%22text%22%3A+%22A+test.%22%7D%2C+%7B%22markup%22%3A+%22%3Cp+attrib%3E%22%2C+%22interpretAs%22%3A+%22%5Cn%5Cn%22%7D%2C%7B%22text%22%3A+%22Here+comes+text+text.%22%7D%5D%7D%22",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"annotation\": [{\"text\": \"A test.\"}, {\"markup\": \"<p attrib>\", \"interpretAs\": \"\\n\\n\"},{\"text\": \"Here comes text text.\"}]}\""
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22annotation%22%3A+%5B%7B%22text%22%3A+%22A+test.%22%7D%2C+%7B%22markup%22%3A+%22%3Cp%3E%22%2C+%22interpretAs%22%3A+%22%5Cn%5Cn%22%7D%2C%7B%22text%22%3A+%22Here+comes+text+text.%22%7D%2C%7B%22markup%22%3A+%22%3C%2Fp%3E%3Cp%3E%22%2C+%22interpretAs%22%3A+%22%5Cn%5Cn%22%7D%2C+%7B%22text%22%3A+%22A+hour+ago.%22%7D%5D%7D%22",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"annotation\": [{\"text\": \"A test.\"}, {\"markup\": \"<p>\", \"interpretAs\": \"\\n\\n\"},{\"text\": \"Here comes text text.\"},{\"markup\": \"</p><p>\", \"interpretAs\": \"\\n\\n\"}, {\"text\": \"A hour ago.\"}]}\""
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22annotation%22%3A+%5B%7B%22text%22%3A+%22An%22%2C+%22markup%22%3A+%22foo%22%7D%5D%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"annotation\": [{\"text\": \"An\", \"markup\": \"foo\"}]}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22annotation%22%3A+%5B%7B%22bla%22%3A+%22An%22%7D%5D%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"annotation\": [{\"bla\": \"An\"}]}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22text%22%3A+%22blah%22%2C+%22annotation%22%3A+%22foo%22%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"text\": \"blah\", \"annotation\": \"foo\"}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en&disabledRules=HUNSPELL_RULE&data=%7B%22annotation%22%3A+%5B%7B%22text%22%3A+%22An%22%2C+%22interpretAs%22%3A+%22foo%22%7D%5D%7D",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en"
+            },
+            {
+              "key": "disabledRules",
+              "value": "HUNSPELL_RULE"
+            },
+            {
+              "key": "data",
+              "value": "{\"annotation\": [{\"text\": \"An\", \"interpretAs\": \"foo\"}]}"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/languagetool-api/v2/check?text=Test&language=en",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "languagetool-api",
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "text",
+              "value": "Test"
+            },
+            {
+              "key": "language",
+              "value": "en"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/?text=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": [
+            {
+              "key": "text",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/healthcheck",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "healthcheck"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/add",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "add"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Mysurname&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=two@test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mxsurname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mxsurname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/delete",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "delete"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Mysurname&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=This+is+Mysurname.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "This is Mysurname."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/add",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "add"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Mysurname&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=two@test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mxsurname+is+my+name.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mxsurname is my name."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/delete",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "delete"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Mysurname&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=en-US&text=Mysurname+is+my+name.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "en-US"
+            },
+            {
+              "key": "text",
+              "value": "Mysurname is my name."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/add",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "add"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Meinname&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=two@test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Mxinname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Mxinname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/delete",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "delete"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Meinname&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Meinname.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Meinname."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/add",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "add"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Meinname&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=two@test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Mxinname+steht+hier.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Mxinname steht hier."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/delete",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "delete"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Meinname&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Meinname+steht+hier.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Meinname steht hier."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/add",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "add"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Sch\ufffd\ufffdckl&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=two@test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Das+ist+Sch%C3%BCckl.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Das ist Sch\u00fcckl."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/delete",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "delete"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=Sch\ufffd\ufffdckl&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words?username=test@test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words"
+          ],
+          "query": [
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.&username=two%40test.de&apiKey=foo-two",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            },
+            {
+              "key": "username",
+              "value": "two@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo-two"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Sch%C3%B6ckl.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Sch\u00f6ckl."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/check?language=de-DE&text=Hier+steht+Schockl&username=test%40test.de&apiKey=foo",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "check"
+          ],
+          "query": [
+            {
+              "key": "language",
+              "value": "de-DE"
+            },
+            {
+              "key": "text",
+              "value": "Hier steht Schockl"
+            },
+            {
+              "key": "username",
+              "value": "test@test.de"
+            },
+            {
+              "key": "apiKey",
+              "value": "foo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/v2/words/add",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "words",
+            "add"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "word=multi word&username=test@test.de&apiKey=foo",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    }
+  ]
+}

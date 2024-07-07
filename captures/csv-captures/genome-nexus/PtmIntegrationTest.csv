@@ -1,0 +1,5 @@
+http.request.method|http.request.full_uri|http.file_data
+GET|http://localhost:38893/ptm/experimental/?ensemblTranscriptId=ENST00000420316|
+GET|http://localhost:38893/ptm/experimental/?ensemblTranscriptId=ENST00000646891|
+GET|http://localhost:38893/ptm/experimental/?ensemblTranscriptId=ENST00000371953|
+POST|http://localhost:38893/ptm/experimental/|{"transcriptIds":["ENST00000420316","ENST00000646891","ENST00000371953"]}

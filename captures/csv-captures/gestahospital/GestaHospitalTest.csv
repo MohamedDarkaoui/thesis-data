@@ -1,0 +1,33 @@
+http.request.method|http.request.full_uri|http.file_data
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+GET|http://localhost:34858/v1/hospitais/maisProximo?lat=50&lon=50&raioMaximo=50000|
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+GET|http://localhost:34858/v1/hospitais/0/leitos|
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+POST|http://localhost:34858/v1/hospitais/null/transferencia/null|{"quantity": 5}
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+DELETE|http://localhost:34858/v1/hospitais/664fc6b65c7d2553809c67b1|
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Novo", "address": "Rua dos Novos, 0001", "beds": "10", "availableBeds": "9"}
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+GET|http://localhost:34858/v1/hospitais/1/leitos|
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+GET|http://localhost:34858/v1/hospitais/0|
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+GET|http://localhost:34858/v1/hospitais/|
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+PUT|http://localhost:34858/v1/hospitais/664fc6be5c7d2553809c67bd|{"name": "Hospital Novo", "address": "Rua dos Novos, 1000", "beds": "10", "availableBeds": "10"}
+POST|http://localhost:34858/v1/hospitais/|{"name": "Hospital Um", "address": "Rua dos Sonhos, 1213", "beds": "21", "availableBeds": "5"}
+GET|http://localhost:34858/v1/hospitais/664fc6c05c7d2553809c67bf|
+GET|http://localhost:34858/v1/hospitais/1/pacientes/0|
+POST|http://localhost:34858/v1/hospitais/1/pacientes/checkin|{"id":null,"name":"nome","cpf":"cpf","birthDate":"2024-05-23T22:44:17.874+0000","gender":"sexo","entryDate":null,"exitDate":null,"active":false,"location":null}
+POST|http://localhost:34858/v1/hospitais/1/pacientes/checkout|1
+GET|http://localhost:34858/v1/hospitais/1/pacientes|
+PUT|http://localhost:34858/v1/hospitais/1/pacientes/2|{\n\t"name": "paciente update",\n\t"cpf": "cpf update",\n}
+GET|http://localhost:34858/v1/hospitais/1/pacientes/2|
+DELETE|http://localhost:34858/v1/hospitais/1/estoque/664fc6af5c7d2553809c67a6|
+GET|http://localhost:34858/v1/hospitais/1/estoque/664fc6af5c7d2553809c67a7|
+GET|http://localhost:34858/v1/hospitais/1/estoque/0|
+GET|http://localhost:34858/v1/hospitais/1/estoque|
+PUT|http://localhost:34858/v1/hospitais/1/estoque/664fc6af5c7d2553809c67a7|{\n\t"name": "produto update",\n\t"quantity": 50,\n\t"productType": "COMMON"\n}
+POST|http://localhost:34858/v1/hospitais/1/estoque|{\n\t"name": "produto teste",\n\t"description": "", \n\t"quantity": 10,\n\t"productType": "COMMON"\n}

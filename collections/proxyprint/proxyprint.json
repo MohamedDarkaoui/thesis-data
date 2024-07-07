@@ -1,0 +1,405 @@
+{
+	"info": {
+		"_postman_id": "047804ab-0b84-434c-b450-467b78174152",
+		"name": "CONVERTED_proxyprint_TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33435539"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/json, application/*+json, application/*+json, */*"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "testusername",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpassword",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testname",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "testemail@mail.pt",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "testlat",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "testlong",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:38888/consumer/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"consumer",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/json, application/*+json, application/*+json, */*"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "testusername",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpassword",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:38888/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/json, application/*+json, application/*+json, */*"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "testusername",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpassword",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testname",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "testemail@mail.pt",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "testlat",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "testlong",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:38888/consumer/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"consumer",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/*+json, */*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:38888/admin/seed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"admin",
+						"seed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/*+json, */*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic am9hcXVpbToxMjM0"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:38888/printshops/8/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"printshops",
+						"8",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/*+json, */*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4="
+					}
+				],
+				"url": {
+					"raw": "http://localhost:38888/requests/pending",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"requests",
+						"pending"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/*+json, */*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":0,\"managerName\":\"manager\",\"managerUsername\":\"manager\",\"managerEmail\":\"proxyprint.pt.printshop@gmail.com\",\"managerPassword\":\"1234\",\"pShopAddress\":\"address\",\"pShopLatitude\":45.0,\"pShopLongitude\":32.0,\"pShopNIF\":\"NIF\",\"pShopName\":\"name\",\"accepted\":false,\"pShopDateRequest\":\"31/05/2024 05:54\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:38888/request/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"request",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/*+json, */*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4="
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:38888/request/accept/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"request",
+						"accept",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Java/1.8.0_402"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain, application/json, application/*+json, */*"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":0,\"managerName\":\"manager\",\"managerUsername\":\"manager\",\"managerEmail\":\"proxyprint.pt.printshop@gmail.com\",\"managerPassword\":\"1234\",\"pShopAddress\":\"address\",\"pShopLatitude\":45.0,\"pShopLongitude\":32.0,\"pShopNIF\":\"NIF\",\"pShopName\":\"name\",\"accepted\":false,\"pShopDateRequest\":\"31/05/2024 05:54\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:38888/request/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38888",
+					"path": [
+						"request",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

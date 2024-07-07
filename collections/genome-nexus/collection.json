@@ -1,0 +1,1938 @@
+{
+  "info": {
+    "_postman_id": "9a707ca6-ee81-413c-a9d4-f81020284c84",
+    "name": "CONVERTED_FEATURE_SERVICES",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33435539"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/summary/9:g.21994291C%3ET",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "summary",
+            "9:g.21994291C%3ET"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/summary/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "summary"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"9:g.21994291C>T\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/summary/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "summary"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"9:g.21994291C>T\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/7,55242466,55242480,GAATTAAGAGAAGCA,-",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "7,55242466,55242480,GAATTAAGAGAAGCA,-"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/7,55249002,55249003,-,CAGCGTGGA",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "7,55249002,55249003,-,CAGCGTGGA"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"chromosome\":\"7\",\"start\":55242466,\"end\":55242480,\"referenceAllele\":\"GAATTAAGAGAAGCA\",\"variantAllele\":\"-\"},{\"chromosome\":\"7\",\"start\":55249002,\"end\":55249003,\"referenceAllele\":\"-\",\"variantAllele\":\"CAGCGTGGA\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/7,140453193,140453193,T,C",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "7,140453193,140453193,T,C"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/17,37880220,37880220,T,C",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "17,37880220,37880220,T,C"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/17,37879794,37879794,G,C",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "17,37879794,37879794,G,C"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/12,25398284,25398285,CC,GA",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "12,25398284,25398285,CC,GA"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/12,25380271,25380271,C,T",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "12,25380271,25380271,C,T"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/10,89692940,89692940,C,T",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "10,89692940,89692940,C,T"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"chromosome\":\"7\",\"start\":140453193,\"end\":140453193,\"referenceAllele\":\"T\",\"variantAllele\":\"C\"},{\"chromosome\":\"17\",\"start\":37880220,\"end\":37880220,\"referenceAllele\":\"T\",\"variantAllele\":\"C\"},{\"chromosome\":\"17\",\"start\":37879794,\"end\":37879794,\"referenceAllele\":\"G\",\"variantAllele\":\"C\"},{\"chromosome\":\"12\",\"start\":25398284,\"end\":25398285,\"referenceAllele\":\"CC\",\"variantAllele\":\"GA\"},{\"chromosome\":\"12\",\"start\":25380271,\"end\":25380271,\"referenceAllele\":\"C\",\"variantAllele\":\"T\"},{\"chromosome\":\"10\",\"start\":89692940,\"end\":89692940,\"referenceAllele\":\"C\",\"variantAllele\":\"T\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000288602\",\"start\":581,\"end\":581,\"mutationType\":\"Missense_Mutation\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000349310\",\"start\":17,\"end\":17,\"mutationType\":\"Missense_Mutation\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000349310\",\"start\":17,\"end\":17,\"mutationType\":\"stop_gained\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000349310\",\"start\":76,\"end\":77,\"mutationType\":\"In_Frame_Ins\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000349310\",\"start\":60,\"end\":64,\"mutationType\":\"In_Frame_Ins\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000349310\",\"start\":76,\"end\":80,\"mutationType\":\"In_Frame_Del\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000349310\",\"start\":78,\"end\":80,\"mutationType\":\"In_Frame_Del\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000397752\",\"start\":1010,\"end\":1010,\"mutationType\":\"Splice_Region\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/proteinLocations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "proteinLocations"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"transcriptId\":\"ENST00000397752\",\"start\":1009,\"end\":1009,\"mutationType\":\"Splice_Region\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/19,10267171,10267171,T,C",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic",
+            "19,10267171,10267171,T,C"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/genomic/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "genomic"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"chromosome\":\"19\",\"start\":10267171,\"end\":10267171,\"referenceAllele\":\"T\",\"variantAllele\":\"C\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/transcript/ENST00000288602",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "transcript",
+            "ENST00000288602"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/cancer_hotspots/transcript",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "cancer_hotspots",
+            "transcript"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"ENST00000288602\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/genomic/?fields=annotation_summary,nucleotide_context",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "genomic"
+          ],
+          "query": [
+            {
+              "key": "fields",
+              "value": "annotation_summary,nucleotide_context"
+            }
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"chromosome\":\"12\",\"start\":25398284,\"end\":25398284,\"referenceAllele\":\"C\",\"variantAllele\":\"A\"},{\"chromosome\":\"12\",\"start\":25398283,\"end\":25398284,\"referenceAllele\":\"AC\",\"variantAllele\":\"AA\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/genomic/?fields=annotation_summary,nucleotide_context",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "genomic"
+          ],
+          "query": [
+            {
+              "key": "fields",
+              "value": "annotation_summary,nucleotide_context"
+            }
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"chromosome\":\"7\",\"start\":140453136,\"end\":140453136,\"referenceAllele\":\"A\",\"variantAllele\":\"T\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/genomic/?fields=my_variant_info",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "genomic"
+          ],
+          "query": [
+            {
+              "key": "fields",
+              "value": "my_variant_info"
+            }
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"chromosome\":\"10\",\"start\":89624245,\"end\":89624245,\"referenceAllele\":\"G\",\"variantAllele\":\"T\"},{\"chromosome\":\"10.0\",\"start\":89624242,\"end\":89624243,\"referenceAllele\":\"AA\",\"variantAllele\":\"-\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/genomic/?fields=annotation_summary,nucleotide_context",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "genomic"
+          ],
+          "query": [
+            {
+              "key": "fields",
+              "value": "annotation_summary,nucleotide_context"
+            }
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"chromosome\":\"4\",\"start\":55152095,\"end\":55152107,\"referenceAllele\":\"ATCATGCATGATT\",\"variantAllele\":\"A\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/MT:g.10360G%3EA",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "MT:g.10360G%3EA"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"MT:g.10360G>A\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"MT:g.10360G>A\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/genomic/?fields=annotation_summary,nucleotide_context",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "genomic"
+          ],
+          "query": [
+            {
+              "key": "fields",
+              "value": "annotation_summary,nucleotide_context"
+            }
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"chromosome\":\"7\",\"start\":140453136,\"end\":140453136,\"referenceAllele\":\"A\",\"variantAllele\":\"T\"}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/genomic/7,140453136,140453136,A,T?fields=annotation_summary,nucleotide_context",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "genomic",
+            "7,140453136,140453136,A,T"
+          ],
+          "query": [
+            {
+              "key": "fields",
+              "value": "annotation_summary,nucleotide_context"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/genomic/7,140453136,140453136,A,T?fields=annotation_summary,nucleotide_context",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "genomic",
+            "7,140453136,140453136,A,T"
+          ],
+          "query": [
+            {
+              "key": "fields",
+              "value": "annotation_summary,nucleotide_context"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/12:g.43130875C%3EG",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "12:g.43130875C%3EG"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"12:g.43130875C>G\",\"12:g.43130996C>G\",\"INVALID\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"12:g.43130875C>G\",\"12:g.43130996C>G\",\"INVALID\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"12:g.43130875C>G\",\"12:g.43130996C>G\",\"INVALID\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"12:g.43130875C>G\",\"12:g.43130996C>G\",\"INVALID\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/ensembl/xrefs/?accession=ENSG00000136999",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "ensembl",
+            "xrefs"
+          ],
+          "query": [
+            {
+              "key": "accession",
+              "value": "ENSG00000136999"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/ensembl/xrefs/?accession=ENSG00000272398",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "ensembl",
+            "xrefs"
+          ],
+          "query": [
+            {
+              "key": "accession",
+              "value": "ENSG00000272398"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/ensembl/xrefs/?accession=ENSG00000198695",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "ensembl",
+            "xrefs"
+          ],
+          "query": [
+            {
+              "key": "accession",
+              "value": "ENSG00000198695"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/my_variant_info/variant/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "my_variant_info",
+            "variant"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"chr17:g.7577566_7577567insA\",\"chr17:g.7577567A>C\",\"chr17:g.7577567_7577567del\",\"chr17:g.7577567_7577568insCACATGTAGTTGT\",\"chr17:g.7577568C>A\",\"chr17:g.7577568C>G\",\"chr17:g.7577568C>T\",\"chr17:g.7577569A>C\",\"chr17:g.7577569A>G\",\"chr17:g.7577569_7577569del\",\"chr17:g.7577569_7577572del\",\"chr17:g.7577569_7577580del\",\"chr17:g.7577570C>A\",\"chr17:g.7577570C>G\",\"chr17:g.7577570C>T\",\"chr17:g.7577571A>T\",\"chr17:g.7577571_7577572insTGTAGT\",\"chr17:g.7577572_7577572del\",\"chr17:g.7577572_7577574del\",\"chr17:g.7577573G>C\",\"chr17:g.7577573G>T\",\"chr17:g.7577573_7577573del\",\"chr17:g.7577574T>C\",\"chr17:g.7577574T>G\",\"chr17:g.7577575A>C\",\"chr17:g.7577575A>G\",\"chr17:g.7577575A>T\",\"chr17:g.7577576_7577578del\",\"chr17:g.7577576_7577582del\",\"chr17:g.7577577T>C\",\"chr17:g.7577578T>C\",\"chr17:g.7577579G>C\",\"chr17:g.7577579G>T\",\"chr17:g.7577579_7577581del\",\"chr17:g.7577580T>C\",\"chr17:g.7577580T>G\",\"chr17:g.7577581A>C\",\"chr17:g.7577581A>G\",\"chr17:g.7577581A>T\",\"chr17:g.7577581_7577595del\",\"chr17:g.7577584_7577585insCTAC\",\"chr17:g.7577585_7577590del\",\"chr17:g.7577586A>C\",\"chr17:g.7577586A>T\",\"chr17:g.7577586_7577587insTGGTGGTACAGTCAG\",\"chr17:g.7577587T>A\",\"chr17:g.7577587_7577587del\",\"chr17:g.7577588_7577595del\",\"chr17:g.7577589G>T\",\"chr17:g.7577589_7577590insT\",\"chr17:g.7577591_7577596del\",\"chr17:g.7577592_7577602del\",\"chr17:g.7577593_7577593del\",\"chr17:g.7577593_7577594del\",\"chr17:g.7577594A>T\",\"chr17:g.7577594_7577595del\",\"chr17:g.7577595C>T\",\"chr17:g.7577596_7577596del\",\"chr17:g.7577599C>G\",\"chr17:g.7577599_7577600insA\",\"chr17:g.7577604C>T\",\"chr17:g.7577608C>T\",\"chr17:g.7577609C>A\",\"chr17:g.7577609C>G\",\"chr17:g.7577609C>T\",\"chr17:g.7577610T>A\",\"chr17:g.7577610T>C\",\"chr17:g.7577610T>G\",\"chr17:g.7578098_7578176del\",\"chr17:g.7578175A>G\",\"chr17:g.7578175_7578233del\",\"chr17:g.7578176C>A\",\"chr17:g.7578176C>T\",\"chr17:g.7578177C>A\",\"chr17:g.7578177C>G\",\"chr17:g.7578179C>A\",\"chr17:g.7578181G>A\",\"chr17:g.7578181_7578181del\",\"chr17:g.7578184_7578184del\",\"chr17:g.7578184_7578187del\",\"chr17:g.7578184_7578208del\",\"chr17:g.7578188C>A\",\"chr17:g.7578189A>C\",\"chr17:g.7578189A>T\",\"chr17:g.7578190T>C\",\"chr17:g.7578190T>G\",\"chr17:g.7578191A>C\",\"chr17:g.7578191A>G\",\"chr17:g.7578191A>T\",\"chr17:g.7578192_7578192del\",\"chr17:g.7578192_7578193delinsA\",\"chr17:g.7578192_7578193insGGCACCACCACACTATGTCGAAAAGTGT\",\"chr17:g.7578193G>C\",\"chr17:g.7578194_7578195insCAC\",\"chr17:g.7578195_7578197del\",\"chr17:g.7578196A>C\",\"chr17:g.7578196_7578197insC\",\"chr17:g.7578196_7578197insCC\",\"chr17:g.7578196_7578197insCCACCACACTAT\",\"chr17:g.7578197C>A\",\"chr17:g.7578197_7578198delinsTT\",\"chr17:g.7578199A>C\",\"chr17:g.7578199_7578199del\",\"chr17:g.7578200_7578222del\",\"chr17:g.7578201_7578202del\",\"chr17:g.7578202A>C\",\"chr17:g.7578202A>T\",\"chr17:g.7578203C>A\",\"chr17:g.7578203C>G\",\"chr17:g.7578203C>T\",\"chr17:g.7578204A>C\",\"chr17:g.7578204A>T\",\"chr17:g.7578205C>A\",\"chr17:g.7578205C>G\",\"chr17:g.7578205C>T\",\"chr17:g.7578205_7578206insTATGTCGAAAA\",\"chr17:g.7578205_7578207delinsTTT\",\"chr17:g.7578206T>A\",\"chr17:g.7578206T>C\",\"chr17:g.7578206T>G\",\"chr17:g.7578206_7578207del\",\"chr17:g.7578207A>C\",\"chr17:g.7578207_7578215del\",\"chr17:g.7578208T>A\",\"chr17:g.7578208T>C\",\"chr17:g.7578208T>G\",\"chr17:g.7578208_7578208del\",\"chr17:g.7578208_7578217del\",\"chr17:g.7578208_7578219del\",\"chr17:g.7578209_7578209del\",\"chr17:g.7578210_7578210del\",\"chr17:g.7578211C>A\",\"chr17:g.7578211C>T\",\"chr17:g.7578211_7578212delinsA\",\"chr17:g.7578212G>A\",\"chr17:g.7578212G>C\",\"chr17:g.7578212_7578213insA\",\"chr17:g.7578213_7578213del\",\"chr17:g.7578213_7578214del\",\"chr17:g.7578213_7578231del\",\"chr17:g.7578215_7578227del\",\"chr17:g.7578217G>A\",\"chr17:g.7578219_7578220insT\",\"chr17:g.7578220_7578221del\",\"chr17:g.7578220_7578221insTTCTGTCATCCAAATACTCCACACG\",\"chr17:g.7578222_7578223del\",\"chr17:g.7578223C>T\",\"chr17:g.7578224T>A\",\"chr17:g.7578225G>T\",\"chr17:g.7578226T>A\",\"chr17:g.7578226_7578229del\",\"chr17:g.7578227C>T\",\"chr17:g.7578229_7578237del\",\"chr17:g.7578230_7578230del\",\"chr17:g.7578231_7578232insAAAT\",\"chr17:g.7578235T>A\",\"chr17:g.7578235T>C\",\"chr17:g.7578235T>G\",\"chr17:g.7578236A>G\",\"chr17:g.7578238_7578255del\",\"chr17:g.7578239C>A\",\"chr17:g.7578239_7578240delinsAG\",\"chr17:g.7578239_7578240insCA\",\"chr17:g.7578242C>A\",\"chr17:g.7578244_7578261del\",\"chr17:g.7578245G>A\",\"chr17:g.7578245_7578277del\",\"chr17:g.7578247A>T\",\"chr17:g.7578247_7578247del\",\"chr17:g.7578247_7578248del\",\"chr17:g.7578248_7578249insAT\",\"chr17:g.7578250_7578250del\",\"chr17:g.7578252_7578299del\",\"chr17:g.7578253C>A\",\"chr17:g.7578253C>T\",\"chr17:g.7578254C>A\",\"chr17:g.7578257C>A\",\"chr17:g.7578257_7578257del\",\"chr17:g.7578257_7578258delinsAA\",\"chr17:g.7578259A>T\",\"chr17:g.7578260C>T\",\"chr17:g.7578262C>A\",\"chr17:g.7578262C>G\",\"chr17:g.7578262C>T\",\"chr17:g.7578263G>A\",\"chr17:g.7578263_7578282del\",\"chr17:g.7578264_7578265delinsTT\",\"chr17:g.7578264_7578338delinsTT\",\"chr17:g.7578265A>C\",\"chr17:g.7578265A>G\",\"chr17:g.7578265A>T\",\"chr17:g.7578265_7578266insT\",\"chr17:g.7578266T>A\",\"chr17:g.7578266_7578266del\",\"chr17:g.7578266_7578267insA\",\"chr17:g.7578267_7578268insAG\",\"chr17:g.7578268A>C\",\"chr17:g.7578268A>G\",\"chr17:g.7578268_7578280del\",\"chr17:g.7578269G>A\",\"chr17:g.7578270A>T\",\"chr17:g.7578271T>A\",\"chr17:g.7578271T>C\",\"chr17:g.7578271T>G\",\"chr17:g.7578272G>A\",\"chr17:g.7578272G>C\",\"chr17:g.7578272G>T\",\"chr17:g.7578272_7578273delinsAA\",\"chr17:g.7578274T>A\",\"chr17:g.7578275G>A\",\"chr17:g.7578275_7578277del\",\"chr17:g.7578275_7578293del\",\"chr17:g.7578277_7578281del\",\"chr17:g.7578280G>A\",\"chr17:g.7578280_7578280del\",\"chr17:g.7578281G>A\",\"chr17:g.7578281G>T\",\"chr17:g.7578282_7578306del\",\"chr17:g.7578283_7578284insC\",\"chr17:g.7578284_7578284del\",\"chr17:g.7578284_7578288del\",\"chr17:g.7578284_7578297del\",\"chr17:g.7578284_7578310del\",\"chr17:g.7578285_7578296del\",\"chr17:g.7578286A>T\",\"chr17:g.7578286_7578286del\",\"chr17:g.7578287_7578287del\",\"chr17:g.7578289C>T\",\"chr17:g.7578289_7578290delinsTT\",\"chr17:g.7578290C>A\",\"chr17:g.7578290C>G\",\"chr17:g.7578290C>T\",\"chr17:g.7578291T>A\",\"chr17:g.7578291T>C\",\"chr17:g.7578291T>G\",\"chr17:g.7578293_7578977del\",\"chr17:g.7578313_7578425del\",\"chr17:g.7578359_7578373del\",\"chr17:g.7578359_7578375del\",\"chr17:g.7578360_7578373del\",\"chr17:g.7578362_7578385del\",\"chr17:g.7578365_7578383del\",\"chr17:g.7578370C>A\",\"chr17:g.7578370C>G\",\"chr17:g.7578370C>T\",\"chr17:g.7578371C>G\",\"chr17:g.7578371_7578382del\",\"chr17:g.7578372_7578373delinsC\",\"chr17:g.7578376_7578376del\",\"chr17:g.7578376_7578379del\",\"chr17:g.7578377_7578377del\",\"chr17:g.7578377_7578378del\",\"chr17:g.7578378A>T\",\"chr17:g.7578378_7578379insTC\",\"chr17:g.7578378_7578395del\",\"chr17:g.7578379_7578379del\",\"chr17:g.7578382G>C\",\"chr17:g.7578382_7578382del\",\"chr17:g.7578384_7578401del\",\"chr17:g.7578388C>G\",\"chr17:g.7578388C>T\",\"chr17:g.7578389G>A\",\"chr17:g.7578389_7578402delinsT\",\"chr17:g.7578390C>G\",\"chr17:g.7578392C>A\",\"chr17:g.7578392C>T\",\"chr17:g.7578393A>C\",\"chr17:g.7578393A>T\",\"chr17:g.7578393_7578405del\",\"chr17:g.7578394T>A\",\"chr17:g.7578394T>C\",\"chr17:g.7578394T>G\",\"chr17:g.7578394_7578395del\",\"chr17:g.7578394_7578396del\",\"chr17:g.7578395G>A\",\"chr17:g.7578395G>C\",\"chr17:g.7578395G>T\",\"chr17:g.7578397T>G\",\"chr17:g.7578397_7578397del\",\"chr17:g.7578397_7578398insG\",\"chr17:g.7578398G>C\",\"chr17:g.7578398_7578398del\",\"chr17:g.7578400G>C\",\"chr17:g.7578401_7578402delinsT\",\"chr17:g.7578402G>C\",\"chr17:g.7578402G>T\",\"chr17:g.7578403C>A\",\"chr17:g.7578403C>T\",\"chr17:g.7578404A>C\",\"chr17:g.7578404A>G\",\"chr17:g.7578404A>T\",\"chr17:g.7578406C>A\",\"chr17:g.7578406C>T\",\"chr17:g.7578406_7578406del\",\"chr17:g.7578407G>A\",\"chr17:g.7578407G>C\",\"chr17:g.7578407_7578412delinsCCC\",\"chr17:g.7578410T>A\",\"chr17:g.7578410T>C\",\"chr17:g.7578411_7578411del\",\"chr17:g.7578412A>C\",\"chr17:g.7578412A>G\",\"chr17:g.7578413C>A\",\"chr17:g.7578413C>G\",\"chr17:g.7578413C>T\",\"chr17:g.7578413_7578413del\",\"chr17:g.7578414_7578414del\",\"chr17:g.7578415A>T\",\"chr17:g.7578416C>A\",\"chr17:g.7578417_7578419delinsTG\",\"chr17:g.7578418T>C\",\"chr17:g.7578419C>A\",\"chr17:g.7578419_7578419del\",\"chr17:g.7578419_7578420insCGTCATGTG\",\"chr17:g.7578421G>A\",\"chr17:g.7578422_7578423insCATGTGCTG\",\"chr17:g.7578422_7578424del\",\"chr17:g.7578423_7578424insA\",\"chr17:g.7578423_7579121del\",\"chr17:g.7578424_7578425del\",\"chr17:g.7578424_7578427del\",\"chr17:g.7578427T>C\",\"chr17:g.7578427T>G\",\"chr17:g.7578428_7578431delinsACTA\",\"chr17:g.7578428_7578627del\",\"chr17:g.7578429_7578430insTG\",\"chr17:g.7578430_7578431del\",\"chr17:g.7578431G>A\",\"chr17:g.7578433G>C\",\"chr17:g.7578433G>T\",\"chr17:g.7578435C>A\",\"chr17:g.7578437G>A\",\"chr17:g.7578439_7578439del\",\"chr17:g.7578440T>A\",\"chr17:g.7578440T>C\",\"chr17:g.7578441G>T\",\"chr17:g.7578441_7578442delinsA\",\"chr17:g.7578442T>C\",\"chr17:g.7578442_7578450delinsCCG\",\"chr17:g.7578443A>C\",\"chr17:g.7578443A>G\",\"chr17:g.7578443A>T\",\"chr17:g.7578443_7578691del\",\"chr17:g.7578445A>C\",\"chr17:g.7578445A>T\",\"chr17:g.7578445_7578449delinsCTGGG\",\"chr17:g.7578446T>A\",\"chr17:g.7578447_7578447del\",\"chr17:g.7578448G>T\",\"chr17:g.7578449C>A\",\"chr17:g.7578449C>T\",\"chr17:g.7578452_7578453insGGCGCG\",\"chr17:g.7578453_7578455del\",\"chr17:g.7578453_7578458del\",\"chr17:g.7578454G>A\",\"chr17:g.7578454_7578455del\",\"chr17:g.7578454_7578457del\",\"chr17:g.7578454_7578464delinsACGC\",\"chr17:g.7578454_7578467del\",\"chr17:g.7578455C>G\",\"chr17:g.7578455_7578460del\",\"chr17:g.7578457C>A\",\"chr17:g.7578457C>G\",\"chr17:g.7578457C>T\",\"chr17:g.7578457_7578458delinsAA\",\"chr17:g.7578458G>A\",\"chr17:g.7578458G>C\",\"chr17:g.7578458_7578459insA\",\"chr17:g.7578458_7578464del\",\"chr17:g.7578460A>C\",\"chr17:g.7578460A>G\",\"chr17:g.7578461C>A\",\"chr17:g.7578461_7578473del\",\"chr17:g.7578462_7578463insC\",\"chr17:g.7578463C>A\",\"chr17:g.7578463C>G\",\"chr17:g.7578463C>T\",\"chr17:g.7578463_7578464insA\",\"chr17:g.7578464G>C\",\"chr17:g.7578464_7578464del\",\"chr17:g.7578464_7578476del\",\"chr17:g.7578465_7578470del\",\"chr17:g.7578466G>A\",\"chr17:g.7578466G>T\",\"chr17:g.7578467T>G\",\"chr17:g.7578467_7578468insG\",\"chr17:g.7578467_7578468insGCCGGGC\",\"chr17:g.7578467_7578498del\",\"chr17:g.7578469C>A\",\"chr17:g.7578469C>T\",\"chr17:g.7578469_7578469del\",\"chr17:g.7578469_7578470insCGGG\",\"chr17:g.7578469_7578470insGGG\",\"chr17:g.7578469_7578474del\",\"chr17:g.7578470_7578471delinsA\",\"chr17:g.7578470_7578471insG\",\"chr17:g.7578470_7578473del\",\"chr17:g.7578470_7578482del\",\"chr17:g.7578470_7578502del\",\"chr17:g.7578471_7578471del\",\"chr17:g.7578471_7578478del\",\"chr17:g.7578471_7578483del\",\"chr17:g.7578472G>A\",\"chr17:g.7578472_7578491del\",\"chr17:g.7578473_7578474insA\",\"chr17:g.7578473_7578474insC\",\"chr17:g.7578474_7578475insG\",\"chr17:g.7578475G>A\",\"chr17:g.7578475G>C\",\"chr17:g.7578475_7578475del\",\"chr17:g.7578475_7578476delinsTT\",\"chr17:g.7578476G>A\",\"chr17:g.7578476G>T\",\"chr17:g.7578476_7578477insGGGT\",\"chr17:g.7578478G>C\",\"chr17:g.7578478G>T\",\"chr17:g.7578478_7578479delinsAA\",\"chr17:g.7578478_7578480del\",\"chr17:g.7578479G>A\",\"chr17:g.7578479G>C\",\"chr17:g.7578479G>T\",\"chr17:g.7578480_7578488del\",\"chr17:g.7578480_7578495del\",\"chr17:g.7578481_7578481del\",\"chr17:g.7578481_7578482insT\",\"chr17:g.7578482_7578482del\",\"chr17:g.7578484_7578485insA\",\"chr17:g.7578484_7578502del\",\"chr17:g.7578485_7578485del\",\"chr17:g.7578486A>T\",\"chr17:g.7578488_7578488del\",\"chr17:g.7578490A>C\",\"chr17:g.7578491_7578491del\",\"chr17:g.7578492C>G\",\"chr17:g.7578492C>T\",\"chr17:g.7578493C>T\",\"chr17:g.7578493_7578500del\",\"chr17:g.7578494A>C\",\"chr17:g.7578495_7578507del\",\"chr17:g.7578496A>C\",\"chr17:g.7578496A>G\",\"chr17:g.7578496A>T\",\"chr17:g.7578499T>A\",\"chr17:g.7578499T>C\",\"chr17:g.7578499T>G\",\"chr17:g.7578499_7578499del\",\"chr17:g.7578500G>A\",\"chr17:g.7578500_7578500del\",\"chr17:g.7578500_7578524del\",\"chr17:g.7578501_7578502insA\",\"chr17:g.7578502A>C\",\"chr17:g.7578502A>G\",\"chr17:g.7578503C>T\",\"chr17:g.7578503_7578507del\",\"chr17:g.7578503_7578518del\",\"chr17:g.7578504_7578505insGGG\",\"chr17:g.7578505G>A\",\"chr17:g.7578505_7578505del\",\"chr17:g.7578505_7578510del\",\"chr17:g.7578507G>C\",\"chr17:g.7578507G>T\",\"chr17:g.7578508C>T\",\"chr17:g.7578508_7578535delinsG\",\"chr17:g.7578509A>C\",\"chr17:g.7578509A>G\",\"chr17:g.7578510_7578510del\",\"chr17:g.7578511G>A\",\"chr17:g.7578513C>G\",\"chr17:g.7578513_7578549del\",\"chr17:g.7578514T>G\",\"chr17:g.7578515T>A\",\"chr17:g.7578515_7578516insGGCCAGTTGGCAAAACATCTTGTTGAG\",\"chr17:g.7578516_7578516del\",\"chr17:g.7578517G>A\",\"chr17:g.7578518C>G\",\"chr17:g.7578520A>T\",\"chr17:g.7578520_7578525del\",\"chr17:g.7578521_7578521del\",\"chr17:g.7578521_7578531del\",\"chr17:g.7578522_7578522del\",\"chr17:g.7578523T>G\",\"chr17:g.7578523_7578548del\",\"chr17:g.7578524G>A\",\"chr17:g.7578524G>C\",\"chr17:g.7578525G>C\",\"chr17:g.7578525G>T\",\"chr17:g.7578526C>A\",\"chr17:g.7578526C>G\",\"chr17:g.7578526C>T\",\"chr17:g.7578526_7578527insA\",\"chr17:g.7578527A>C\",\"chr17:g.7578527A>G\",\"chr17:g.7578527A>T\",\"chr17:g.7578527_7578527del\",\"chr17:g.7578527_7578528del\",\"chr17:g.7578528A>C\",\"chr17:g.7578528A>T\",\"chr17:g.7578529A>C\",\"chr17:g.7578530A>C\",\"chr17:g.7578530A>G\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/my_variant_info/variant/7:g.140453136A%3ET",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "my_variant_info",
+            "variant",
+            "7:g.140453136A%3ET"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/my_variant_info/variant/7:g.140453136A%3ET",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "my_variant_info",
+            "variant",
+            "7:g.140453136A%3ET"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/my_variant_info/variant/7:g.140453136A%3ET",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "my_variant_info",
+            "variant",
+            "7:g.140453136A%3ET"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/my_variant_info/variant/rs12190874",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "my_variant_info",
+            "variant",
+            "rs12190874"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/my_variant_info/variant/rs12190874",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "my_variant_info",
+            "variant",
+            "rs12190874"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/my_variant_info/variant/17:g.41276045_41276046del",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "my_variant_info",
+            "variant",
+            "17:g.41276045_41276046del"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/my_variant_info/variant/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "my_variant_info",
+            "variant"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"7:g.140453136A>T\",\"17:g.41276045_41276046del\",\"rs12190874\",\"INVALID\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/nucleotide_context/7:g.140453136A%3ET",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "nucleotide_context",
+            "7:g.140453136A%3ET"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/nucleotide_context/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "nucleotide_context"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"7:g.140453136A>T\",\"12:g.25398285C>A\",\"17:g.41242962_41242963insGA\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/pdb/header/1a37",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "pdb",
+            "header",
+            "1a37"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/pdb/header/1a4o",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "pdb",
+            "header",
+            "1a4o"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/pdb/header/3njp",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "pdb",
+            "header",
+            "3njp"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/pdb/header/1yy9",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "pdb",
+            "header",
+            "1yy9"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/pdb/header/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "pdb",
+            "header"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"1a37\",\"1a4o\",\"3njp\",\"1yy9\",\"INVALID\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/ptm/experimental/?ensemblTranscriptId=ENST00000420316",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "ptm",
+            "experimental"
+          ],
+          "query": [
+            {
+              "key": "ensemblTranscriptId",
+              "value": "ENST00000420316"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/ptm/experimental/?ensemblTranscriptId=ENST00000646891",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "ptm",
+            "experimental"
+          ],
+          "query": [
+            {
+              "key": "ensemblTranscriptId",
+              "value": "ENST00000646891"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/ptm/experimental/?ensemblTranscriptId=ENST00000371953",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "ptm",
+            "experimental"
+          ],
+          "query": [
+            {
+              "key": "ensemblTranscriptId",
+              "value": "ENST00000371953"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/ptm/experimental/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "ptm",
+            "experimental"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"transcriptIds\":[\"ENST00000420316\",\"ENST00000646891\",\"ENST00000371953\"]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/signal/mutation?hugoGeneSymbol=INVALID",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "signal",
+            "mutation"
+          ],
+          "query": [
+            {
+              "key": "hugoGeneSymbol",
+              "value": "INVALID"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/signal/mutation?hugoGeneSymbol=TP53",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "signal",
+            "mutation"
+          ],
+          "query": [
+            {
+              "key": "hugoGeneSymbol",
+              "value": "TP53"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/signal/mutation?hugoGeneSymbol=BRCA2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "signal",
+            "mutation"
+          ],
+          "query": [
+            {
+              "key": "hugoGeneSymbol",
+              "value": "BRCA2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/signal/mutation/hgvs/17:g.7574003_7574004insGAACATCTCGAAGCGCTCACGCCCAC",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "signal",
+            "mutation",
+            "hgvs",
+            "17:g.7574003_7574004insGAACATCTCGAAGCGCTCACGCCCAC"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/signal/mutation/hgvs/17:g.7577018C%3EG",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "signal",
+            "mutation",
+            "hgvs",
+            "17:g.7577018C%3EG"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/signal/mutation/hgvs/13:g.32893385_32893389delTATTC",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "signal",
+            "mutation",
+            "hgvs",
+            "13:g.32893385_32893389delTATTC"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/signal/mutation/hgvs/13:g.32893378C%3ET",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "signal",
+            "mutation",
+            "hgvs",
+            "13:g.32893378C%3ET"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/signal/mutation/hgvs/10:g.89624230_89624231delAC",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "signal",
+            "mutation",
+            "hgvs",
+            "10:g.89624230_89624231delAC"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/dbsnp/rs116035550",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "dbsnp",
+            "rs116035550"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/annotation/dbsnp/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "annotation",
+            "dbsnp"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\"rs116035550\",\"rs1333049\",\"asdas\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    }
+  ]
+}

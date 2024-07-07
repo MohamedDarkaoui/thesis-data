@@ -1,0 +1,92 @@
+http.request.method|http.request.full_uri|http.file_data
+GET|http://localhost:8080/api/v2/activities|
+POST|http://localhost:8080/api/v2/activities|{"id":0,"name":"A New Activity","date_created":"2024-05-26T19:24:00.191Z","description_material":"Materials","description_introduction":"Introduction","description_prepare":"Preparations","description_main":"Main","description_safety":"Safety","description_notes":"Notes","age_min":5,"age_max":10,"participants_min":1,"participants_max":3,"time_min":10,"time_max":30,"featured":false,"tags":[{"id":1,"activities_count":0},{"id":0,"group":"location","name":"At home","activities_count":0}],"media_files":[{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif - Duplicate which should not be persisted"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/bobcat.gif","name":"bobcat.gif"}]}
+GET|http://localhost:8080/api/v2/activities|
+GET|http://localhost:8080/api/v2/activities/1|
+PATCH|http://localhost:8080/api/v2/activities/1|{"id":0,"name":"A Patched Activity","date_created":"2024-05-26T19:24:00.471Z"}
+GET|http://localhost:8080/api/v2/activities/1|
+PUT|http://localhost:8080/api/v2/activities/1|{"id":0,"name":"An Updated Activity","date_created":"2024-05-26T19:24:00.535Z","description_material":"Materials","description_introduction":"The Introduction Has Been Updated","description_prepare":"Preparations","description_main":"Main","description_safety":"Safety","description_notes":"Notes","age_min":5,"age_max":10,"participants_min":1,"participants_max":3,"time_min":10,"time_max":30,"featured":false,"tags":[{"id":1,"activities_count":0}],"media_files":[{"id":0,"mime_type":"image/gif","uri":"http://example.com/bobcat.gif","name":"bobcat.gif"}]}
+GET|http://localhost:8080/api/v2/activities/1|
+DELETE|http://localhost:8080/api/v2/activities/1|
+GET|http://localhost:8080/api/v2/activities|
+POST|http://localhost:8080/api/v2/activities|{"id":0,"name":"A New Activity","date_created":"2024-05-26T19:24:00.627Z","description_material":"Materials","description_introduction":"Introduction","description_prepare":"Preparations","description_main":"Main","description_safety":"Safety","description_notes":"Notes","age_min":5,"age_max":10,"participants_min":1,"participants_max":3,"time_min":10,"time_max":30,"featured":false,"tags":[{"id":1,"activities_count":0},{"id":0,"group":"location","name":"At home","activities_count":0}],"media_files":[{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif - Duplicate which should not be persisted"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/bobcat.gif","name":"bobcat.gif"}]}
+POST|http://localhost:8080/api/v2/activities|{"id":0,"name":"A New Activity","date_created":"2024-05-26T19:24:00.673Z","description_material":"Materials","description_introduction":"Introduction","description_prepare":"Preparations","description_main":"Main","description_safety":"Safety","description_notes":"Notes","age_min":5,"age_max":10,"participants_min":1,"participants_max":3,"time_min":10,"time_max":30,"featured":false,"tags":[{"id":1,"activities_count":0},{"id":0,"group":"location","name":"At home","activities_count":0}],"media_files":[{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif - Duplicate which should not be persisted"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/bobcat.gif","name":"bobcat.gif"}]}
+POST|http://localhost:8080/api/v2/activities|{"id":0,"name":"A New Activity","date_created":"2024-05-26T19:24:00.695Z","description_material":"Materials","description_introduction":"Introduction","description_prepare":"Preparations","description_main":"Main","description_safety":"Safety","description_notes":"Notes","age_min":5,"age_max":10,"participants_min":1,"participants_max":3,"time_min":10,"time_max":30,"featured":false,"tags":[{"id":1,"activities_count":0},{"id":0,"group":"location","name":"At home","activities_count":0}],"media_files":[{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif - Duplicate which should not be persisted"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/bobcat.gif","name":"bobcat.gif"}]}
+POST|http://localhost:8080/api/v2/activities/2/rating|{"rating":3,"favourite":false}
+POST|http://localhost:8080/api/v2/activities/2/rating|{"rating":4,"favourite":false}
+GET|http://localhost:8080/api/v2/activities/2|
+POST|http://localhost:8080/api/v1/favourites|{"id":[2,3]}
+POST|http://localhost:8080/api/v1/favourites|{"id":[3,4]}
+GET|http://localhost:8080/api/v2/activities/2|
+GET|http://localhost:8080/api/v2/activities/3|
+GET|http://localhost:8080/api/v2/activities/4|
+POST|http://localhost:8080/api/v1/favourites|{"id":[2,4]}
+GET|http://localhost:8080/api/v2/activities/2|
+GET|http://localhost:8080/api/v2/activities/3|
+GET|http://localhost:8080/api/v2/activities/4|
+GET|http://localhost:8080/api/v1/favourites|
+POST|http://localhost:8080/api/v2/activities|{"id":0,"name":"A New Activity","date_created":"2024-05-26T19:24:00.912Z","description_material":"Materials","description_introduction":"Introduction","description_prepare":"Preparations","description_main":"Main","description_safety":"Safety","description_notes":"Notes","age_min":5,"age_max":10,"participants_min":1,"participants_max":3,"time_min":10,"time_max":30,"featured":false,"tags":[{"id":1,"activities_count":0},{"id":0,"group":"location","name":"At home","activities_count":0}],"media_files":[{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif - Duplicate which should not be persisted"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/bobcat.gif","name":"bobcat.gif"}]}
+GET|http://localhost:8080/api/v2/activities/5|
+POST|http://localhost:8080/api/v2/activities/5/rating|{"rating":5,"favourite":false}
+POST|http://localhost:8080/api/v2/activities/5/rating|{"rating":4,"favourite":true}
+GET|http://localhost:8080/api/v2/activities/5|
+POST|http://localhost:8080/api/v2/activities/5/rating|{"rating":3,"favourite":false}
+GET|http://localhost:8080/api/v2/activities/5|
+DELETE|http://localhost:8080/api/v2/activities/5/rating|
+GET|http://localhost:8080/api/v2/activities/5|
+POST|http://localhost:8080/api/v2/activities|{"id":0,"name":"An Updated Activity","date_created":"2024-05-26T19:24:02.431Z","description_material":"Materials","description_introduction":"The Introduction Has Been Updated","description_prepare":"Preparations","description_main":"Main","description_safety":"Safety","description_notes":"Notes","age_min":5,"age_max":10,"participants_min":1,"participants_max":3,"time_min":10,"time_max":30,"featured":false,"tags":[{"id":1,"activities_count":0}],"media_files":[{"id":0,"mime_type":"image/gif","uri":"http://example.com/bobcat.gif","name":"bobcat.gif"}]}
+DELETE|http://localhost:8080/api/v1/media_files/1?verify_unused=true|
+DELETE|http://localhost:8080/api/v1/media_files/1|
+POST|http://localhost:8080/api/v1/media_files|--Boundary_1_1723960219_1716744242666\r\nContent-Type: image/jpeg\r\nContent-Disposition: form-data; filename="cat.jpg"; name="bd7ab893-4235-4ca5-969f-91174213b486"\r\n\r\n����"
+GET|http://localhost:8080/api/v1/media_files/2/file?size=300|
+POST|http://localhost:8080/api/v1/media_files|{"id":0,"mime_type":"text/xml","uri":"data:application/xml;base64,c2VydmVyOg0KICBnemlwOg0KICAgIG1pbmltdW1FbnRpdHlTaXplOiAxMDBieXRlcw0KICB0eXBlOiBzaW1wbGUNCiAgYXBwbGljYXRpb25Db250ZXh0UGF0aDogL2FwaQ0KICBhZG1pbkNvbnRleHRQYXRoOiAvYWRtaW4NCiAgY29ubmVjdG9yOg0KICAgIHR5cGU6IGh0dHANCiAgICBwb3J0OiA4MDgwDQoNCiNsb2dnaW5nOg0KIyAgbGV2ZWw6IElORk8NCiMgIGFwcGVuZGVyczoNCiMgICAgLSB0eXBlOiBjb25zb2xlDQojICAgICAgdGhyZXNob2xkOiBBTEwNCiMgICAgICB0aW1lWm9uZTogVVRDDQojICAgICAgdGFyZ2V0OiBzdGRvdXQNCiMgICAgICBsb2dGb3JtYXQ6ICMgVE9ETw0KIw0KIyBMb2dnaW5nIHNldHRpbmdzLg0KbG9nZ2luZzoNCg0KICAjIFRoZSBkZWZhdWx0IGxldmVsIG9mIGFsbCBsb2dnZXJzLiBDYW4gYmUgT0ZGLCBFUlJPUiwgV0FSTiwgSU5GTywgREVCVUcsIFRSQUNFLCBvciBBTEwuDQogIGxldmVsOiBJTkZPDQoNCiAgIyBMb2dnZXItc3BlY2lmaWMgbGV2ZWxzLg0KICBsb2dnZXJzOg0KDQogICAgc2UuZGV2c2NvdXQ6IERFQlVHDQoNCiAgICAjIEVuYWJsZSBKU09OIHJlcXVlc3QgYW5kIHJlc3BvbnNlIGxvZ2duaW5nOg0KICAgIG9yZy5nbGFzc2Zpc2guamVyc2V5LmZpbHRlci5Mb2dnaW5nRmlsdGVyOiBJTkZPDQoNCiAgICBvcmcuaGliZXJuYXRlLlNRTDogREVCVUcNCiMgICAgb3JnLmhpYmVybmF0ZS50eXBlOiBUUkFDRQ0KDQogIGFwcGVuZGVyczoNCiAgICAtIHR5cGU6IGNvbnNvbGUNCg0KZGF0YWJhc2U6DQogICMgdGhlIG5hbWUgb2YgeW91ciBKREJDIGRyaXZlcg0KICBkcml2ZXJDbGFzczogb3JnLmgyLkRyaXZlcg0KDQogICMgdGhlIHVzZXJuYW1lDQogIHVzZXI6IHNhDQoNCiAgIyB0aGUgcGFzc3dvcmQNCiAgcGFzc3dvcmQ6DQoNCiAgIyB0aGUgSkRCQyBVUkwNCiAgdXJsOiBqZGJjOmgyOm1lbTppbnRlZ3JhdGlvbnRlc3QNCg0KICAjIGFueSBwcm9wZXJ0aWVzIHNwZWNpZmljIHRvIHlvdXIgSkRCQyBkcml2ZXI6DQogIHByb3BlcnRpZXM6DQogICAgY2hhclNldDogVVRGLTgNCiAgICBoaWJlcm5hdGUuZGlhbGVjdDogIm9yZy5oaWJlcm5hdGUuZGlhbGVjdC5IMkRpYWxlY3QiDQogICAgaGliZXJuYXRlLmhibTJkZGwuYXV0bzogImNyZWF0ZS1kcm9wIg0KICAgIGhpYmVybmF0ZS5oYm0yZGRsLmltcG9ydF9maWxlc19zcWxfZXh0cmFjdG9yOiAib3JnLmhpYmVybmF0ZS50b29sLmhibTJkZGwuTXVsdGlwbGVMaW5lc1NxbENvbW1hbmRFeHRyYWN0b3IiDQoNCg0KICAjIHRoZSBtYXhpbXVtIGFtb3VudCBvZiB0aW1lIHRvIHdhaXQgb24gYW4gZW1wdHkgcG9vbCBiZWZvcmUgdGhyb3dpbmcgYW4gZXhjZXB0aW9uDQogIG1heFdhaXRGb3JDb25uZWN0aW9uOiAxcw0KDQogICMgdGhlIFNRTCBxdWVyeSB0byBydW4gd2hlbiB2YWxpZGF0aW5nIGEgY29ubmVjdGlvbidzIGxpdmVuZXNzDQogIHZhbGlkYXRpb25RdWVyeTogIi8qIE15QXBwbGljYXRpb24gSGVhbHRoIENoZWNrICovIFNFTEVDVCAxIg0KDQogICMgdGhlIG1pbmltdW0gbnVtYmVyIG9mIGNvbm5lY3Rpb25zIHRvIGtlZXAgb3Blbg0KICBtaW5TaXplOiA4DQoNCiAgIyB0aGUgbWF4aW11bSBudW1iZXIgb2YgY29ubmVjdGlvbnMgdG8ga2VlcCBvcGVuDQogIG1heFNpemU6IDMyDQoNCiAgIyB3aGV0aGVyIG9yIG5vdCBpZGxlIGNvbm5lY3Rpb25zIHNob3VsZCBiZSB2YWxpZGF0ZWQNCiAgY2hlY2tDb25uZWN0aW9uV2hpbGVJZGxlOiBmYWxzZQ0KDQpkZWZhdWx0VGFnczoNCiAgLSBuYW1lOiAiSGFwcHkiDQogICAgZ3JvdXA6ICJmZWVsaW5ncyINCiAgLSBuYW1lOiAiU2FkIg0KICAgIGdyb3VwOiAiZmVlbGluZ3MiDQogIC0gbmFtZTogIkJvcmVkIg0KICAgIGdyb3VwOiAiZmVlbGluZ3MiDQogIC0gbmFtZTogIlRoaW5rIg0KICAgIGdyb3VwOiAiZmVlbGluZ3MiDQogIC0gbmFtZTogIkV4Y2l0ZWQiDQogICAgZ3JvdXA6ICJmZWVsaW5ncyINCg0KZGVmYXVsdFVzZXJzOg0KICAtIG5hbWU6ICJJTlRFR1JBVElPTiBURVNUIFVTRVIiDQogICAgYXV0aG9yaXphdGlvbl9sZXZlbDogMA0KICAgIGlkZW50aXRpZXM6DQogICAgICAtIHR5cGU6ICJBUEkiDQogICAgICAgIHZhbHVlOiAidXNlciINCiAgLSBuYW1lOiAiSU5URUdSQVRJT04gVEVTVCBNT0RFUkFUT1IiDQogICAgYXV0aG9yaXphdGlvbl9sZXZlbDogMTANCiAgICBpZGVudGl0aWVzOg0KICAgICAgLSB0eXBlOiAiQVBJIg0KICAgICAgICB2YWx1ZTogIm1vZGVyYXRvciINCiAgLSBuYW1lOiAiSU5URUdSQVRJT04gVEVTVCBBRE1JTklTVFJBVE9SIg0KICAgIGF1dGhvcml6YXRpb25fbGV2ZWw6IDIwDQogICAgaWRlbnRpdGllczoNCiAgICAgIC0gdHlwZTogIkFQSSINCiAgICAgICAgdmFsdWU6ICJhZG1pbmlzdHJhdG9yIg0KDQptZWRpYUZpbGVzRm9sZGVyOiAuL3RlbXAvbWVkaWEtZmlsZXMNCg0KdGVtcEZvbGRlcjogLi90ZW1wDQoNCmF1dG9VcGRhdGVJbnRlcnZhbFNlY29uZHM6IDAgIyAwID0gZGlzYWJsZWQNCg0KY3Jhd2xlclVzZXI6ICJDcmF3bGVyIg0K","name":"config-integrationtest.yml"}
+GET|http://localhost:8080/api/v1/media_files/3/file|
+GET|http://localhost:8080/api/v1/media_files|
+POST|http://localhost:8080/api/v1/media_files|{"id":0,"mime_type":"image/jpeg","uri":"http://example.com/profile-alice.jpg","name":"Alice's Profile Picture"}
+GET|http://localhost:8080/api/v1/media_files|
+GET|http://localhost:8080/api/v1/media_files/4|
+PUT|http://localhost:8080/api/v1/media_files/4|{"id":0,"mime_type":"image/gif","uri":"http://example.com/profile-bob.gif","name":"Bob's Profile Picture"}
+GET|http://localhost:8080/api/v1/media_files/4|
+DELETE|http://localhost:8080/api/v1/media_files/4|
+GET|http://localhost:8080/api/v1/media_files|
+GET|http://localhost:8080/api/v1/system/roles|
+GET|http://localhost:8080/api/v1/system/ping|
+GET|http://localhost:8080/api/v1/system_messages|
+POST|http://localhost:8080/api/v1/system_messages|{"id":0,"key":"new-key","value":"new-value"}
+GET|http://localhost:8080/api/v1/system_messages|
+GET|http://localhost:8080/api/v1/system_messages/1|
+PUT|http://localhost:8080/api/v1/system_messages/1|{"id":0,"key":"new-key","value":"new-value","valid_to":"2024-05-26T22:24:06.612Z","valid_from":"2024-05-26T21:24:06.611Z"}
+GET|http://localhost:8080/api/v1/system_messages/1|
+DELETE|http://localhost:8080/api/v1/system_messages/1|
+GET|http://localhost:8080/api/v1/system_messages|
+POST|http://localhost:8080/api/v1/system_messages|{"id":0,"key":"a.a","value":"value","valid_from":"2024-05-26T22:24:06.0Z"}
+POST|http://localhost:8080/api/v1/system_messages|{"id":0,"key":"a.a.a","value":"value","valid_to":"2024-05-26T20:24:06.0Z","valid_from":"2024-05-26T19:24:06.0Z"}
+POST|http://localhost:8080/api/v1/system_messages|{"id":0,"key":"a.b","value":"value"}
+POST|http://localhost:8080/api/v1/system_messages|{"id":0,"key":"b.b","value":"value"}
+GET|http://localhost:8080/api/v1/system_messages?key=a.&valid=now|
+GET|http://localhost:8080/api/v1/system_messages?key=a.&valid=now_and_future|
+GET|http://localhost:8080/api/v1/system_messages?key=a.|
+GET|http://localhost:8080/api/v1/system_messages?key=a.a|
+GET|http://localhost:8080/api/v1/system_messages?key=b|
+POST|http://localhost:8080/api/v1/system_messages|{"id":0,"key":"fail","value":"fail","valid_to":"2024-05-26T21:24:06.770Z","valid_from":"2024-05-26T22:24:06.770Z"}
+PUT|http://localhost:8080/api/v1/system_messages/1|{"id":0,"key":"fail","value":"fail","valid_to":"2024-05-26T21:24:06.770Z","valid_from":"2024-05-26T22:24:06.770Z"}
+DELETE|http://localhost:8080/api/v1/system_messages/1|
+GET|http://localhost:8080/api/v2/tags|
+POST|http://localhost:8080/api/v2/tags|{"id":0,"group":"G","name":"N","activities_count":0}
+GET|http://localhost:8080/api/v2/tags|
+GET|http://localhost:8080/api/v2/tags/6|
+DELETE|http://localhost:8080/api/v2/tags/6|
+GET|http://localhost:8080/api/v2/tags|
+POST|http://localhost:8080/api/v2/activities|{"id":0,"name":"A New Activity","date_created":"2024-05-26T19:24:07.664Z","description_material":"Materials","description_introduction":"Introduction","description_prepare":"Preparations","description_main":"Main","description_safety":"Safety","description_notes":"Notes","age_min":5,"age_max":10,"participants_min":1,"participants_max":3,"time_min":10,"time_max":30,"featured":false,"tags":[{"id":1,"activities_count":0},{"id":0,"group":"location","name":"At home","activities_count":0}],"media_files":[{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/ant.gif","name":"ant.gif - Duplicate which should not be persisted"},{"id":0,"mime_type":"image/gif","uri":"http://example.com/bobcat.gif","name":"bobcat.gif"}]}
+GET|http://localhost:8080/api/v2/tags/1|
+POST|http://localhost:8080/api/v1/users|{"id":0,"name":"User with too high authorization level","authorization_level":99,"identities":[{"id":0,"date_created":"2024-05-26T19:24:08.372Z","type":"API","value":"some api key"}]}
+GET|http://localhost:8080/api/v1/users/profile|
+GET|http://localhost:8080/api/v1/users?attrs=id%2Cidentities|
+POST|http://localhost:8080/api/v1/users|{"id":0,"name":"new user","authorization_level":0,"identities":[{"id":0,"date_created":"2024-05-26T19:24:08.505Z","type":"API","value":"some api key"}]}
+GET|http://localhost:8080/api/v1/users?attrs=id%2Cidentities|
+GET|http://localhost:8080/api/v1/users/4|
+DELETE|http://localhost:8080/api/v1/users/4|
+GET|http://localhost:8080/api/v1/users?attrs=id%2Cidentities|
+GET|http://localhost:8080/api/v1/users/1|
+PUT|http://localhost:8080/api/v1/users/1|{"id":0,"name":"Don't care about the name","authorization_level":99,"identities":[{"id":0,"date_created":"2024-05-26T19:24:08.576Z","type":"API","value":"some api key"}]}
+GET|http://localhost:8080/api/v1/users/1|

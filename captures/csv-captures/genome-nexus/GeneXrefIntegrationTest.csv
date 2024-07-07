@@ -1,0 +1,4 @@
+http.request.method|http.request.full_uri|http.file_data
+GET|http://localhost:38890/ensembl/xrefs/?accession=ENSG00000136999|
+GET|http://localhost:38890/ensembl/xrefs/?accession=ENSG00000272398|
+GET|http://localhost:38890/ensembl/xrefs/?accession=ENSG00000198695|

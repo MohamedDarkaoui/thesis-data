@@ -1,0 +1,6 @@
+http.request.method|http.request.full_uri|http.file_data
+GET|http://localhost:38889/pdb/header/1a37|
+GET|http://localhost:38889/pdb/header/1a4o|
+GET|http://localhost:38889/pdb/header/3njp|
+GET|http://localhost:38889/pdb/header/1yy9|
+POST|http://localhost:38889/pdb/header/|["1a37","1a4o","3njp","1yy9","INVALID"]

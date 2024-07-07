@@ -1,0 +1,84 @@
+http.request.method|http.request.full_uri|http.file_data
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":"my session information"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883ca3|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":"my session information"}
+POST|http://localhost:8081/api/sessions/other_portal/main_session/|{"portal-session":"my session information"}
+POST|http://localhost:8081/api/sessions/MSK_portal/main_session/|{"portal-session":"my session information"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883ca3|
+POST|http://localhost:8081/api/sessions/msk_portal/virtual_study/|{"portal-session":{"arg1":"first argument"}}
+GET|http://localhost:8081/api/sessions/msk_portal/virtual_study/66368e036f17eb581e883ca7|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883ca7|
+DELETE|http://localhost:8081/api/sessions/msk_portal/virtual_study/66368e036f17eb581e883ca7|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/id|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"arg1":"first argument"}}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883ca8|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883ca8|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"arg1":"first argument"}}
+PUT|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883ca9|{"portal-session":blah blah blah}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883ca9|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"title":"my portal session"}}
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/query/fetch|{"data.p\
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883caa|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"title":"my portal session"}}
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/query/fetch|{"$data.portal-session.title":"my portal session"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883cab|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":"my session information"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883cac|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883cac|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{}
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883cad|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":"my session information"}
+PUT|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883cae|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e036f17eb581e883cae|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"title":"my portal session"}}
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/query/fetch|{"data.portal-session.title":"my portal session"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883caf|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"title":"my portal session"}}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/query?field=data.p%00ortal-session.title&value=my%20portal%20session|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb0|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":"my session information"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb1|
+PUT|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb1|{"portal-session":"my session UPDATED information"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb1|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb1|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/id|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+PUT|http://localhost:8081/api/sessions/msk_portal/main_session/id|{"portal-session":"my session information"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":"my session information"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb2|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"title":"my portal session"}}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/query?field=$data.portal-session.title&value=my%20portal%20session|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb3|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":blah blah blah}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+POST|http://localhost:8081/api/sessions/msk_portal/invalid_type/|{"portal-session":"blah blah blah"}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"title":"my portal session"}}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/query?field=data.portal-session.title&value=my%20portal%20session|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb4|
+POST|http://localhost:8081/api/sessions/msk_portal/main_session/|{"portal-session":{"arg1":"first argument"}}
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb5|
+DELETE|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb5|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/66368e046f17eb581e883cb5|
+GET|http://localhost:8081/api/sessions/msk_portal/main_session/|

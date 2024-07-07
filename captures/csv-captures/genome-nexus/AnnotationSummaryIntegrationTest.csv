@@ -1,0 +1,4 @@
+http.request.method|http.request.full_uri|http.file_data
+GET|http://localhost:38898/annotation/summary/9:g.21994291C%3ET|
+POST|http://localhost:38898/annotation/summary/|["9:g.21994291C>T"]
+POST|http://localhost:38898/annotation/summary/|["9:g.21994291C>T"]

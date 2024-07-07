@@ -1,0 +1,3146 @@
+{
+  "info": {
+    "_postman_id": "9a707ca6-ee81-413c-a9d4-f81020284c84",
+    "name": "CONVERTED_scout-api-headers_TEST",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33435539"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"A New Activity\",\"date_created\":\"2024-05-26T19:24:00.191Z\",\"description_material\":\"Materials\",\"description_introduction\":\"Introduction\",\"description_prepare\":\"Preparations\",\"description_main\":\"Main\",\"description_safety\":\"Safety\",\"description_notes\":\"Notes\",\"age_min\":5,\"age_max\":10,\"participants_min\":1,\"participants_max\":3,\"time_min\":10,\"time_max\":30,\"featured\":false,\"tags\":[{\"id\":1,\"activities_count\":0},{\"id\":0,\"group\":\"location\",\"name\":\"At home\",\"activities_count\":0}],\"media_files\":[{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif - Duplicate which should not be persisted\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/bobcat.gif\",\"name\":\"bobcat.gif\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "1"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"A Patched Activity\",\"date_created\":\"2024-05-26T19:24:00.471Z\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "1"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"An Updated Activity\",\"date_created\":\"2024-05-26T19:24:00.535Z\",\"description_material\":\"Materials\",\"description_introduction\":\"The Introduction Has Been Updated\",\"description_prepare\":\"Preparations\",\"description_main\":\"Main\",\"description_safety\":\"Safety\",\"description_notes\":\"Notes\",\"age_min\":5,\"age_max\":10,\"participants_min\":1,\"participants_max\":3,\"time_min\":10,\"time_max\":30,\"featured\":false,\"tags\":[{\"id\":1,\"activities_count\":0}],\"media_files\":[{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/bobcat.gif\",\"name\":\"bobcat.gif\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 983da931-80be-475a-a9b2-580cc4b1b930)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"A New Activity\",\"date_created\":\"2024-05-26T19:24:00.627Z\",\"description_material\":\"Materials\",\"description_introduction\":\"Introduction\",\"description_prepare\":\"Preparations\",\"description_main\":\"Main\",\"description_safety\":\"Safety\",\"description_notes\":\"Notes\",\"age_min\":5,\"age_max\":10,\"participants_min\":1,\"participants_max\":3,\"time_min\":10,\"time_max\":30,\"featured\":false,\"tags\":[{\"id\":1,\"activities_count\":0},{\"id\":0,\"group\":\"location\",\"name\":\"At home\",\"activities_count\":0}],\"media_files\":[{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif - Duplicate which should not be persisted\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/bobcat.gif\",\"name\":\"bobcat.gif\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"A New Activity\",\"date_created\":\"2024-05-26T19:24:00.673Z\",\"description_material\":\"Materials\",\"description_introduction\":\"Introduction\",\"description_prepare\":\"Preparations\",\"description_main\":\"Main\",\"description_safety\":\"Safety\",\"description_notes\":\"Notes\",\"age_min\":5,\"age_max\":10,\"participants_min\":1,\"participants_max\":3,\"time_min\":10,\"time_max\":30,\"featured\":false,\"tags\":[{\"id\":1,\"activities_count\":0},{\"id\":0,\"group\":\"location\",\"name\":\"At home\",\"activities_count\":0}],\"media_files\":[{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif - Duplicate which should not be persisted\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/bobcat.gif\",\"name\":\"bobcat.gif\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"A New Activity\",\"date_created\":\"2024-05-26T19:24:00.695Z\",\"description_material\":\"Materials\",\"description_introduction\":\"Introduction\",\"description_prepare\":\"Preparations\",\"description_main\":\"Main\",\"description_safety\":\"Safety\",\"description_notes\":\"Notes\",\"age_min\":5,\"age_max\":10,\"participants_min\":1,\"participants_max\":3,\"time_min\":10,\"time_max\":30,\"featured\":false,\"tags\":[{\"id\":1,\"activities_count\":0},{\"id\":0,\"group\":\"location\",\"name\":\"At home\",\"activities_count\":0}],\"media_files\":[{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif - Duplicate which should not be persisted\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/bobcat.gif\",\"name\":\"bobcat.gif\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/2/rating",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "2",
+            "rating"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"rating\":3,\"favourite\":false}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/2/rating",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "2",
+            "rating"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"rating\":4,\"favourite\":false}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "2"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/favourites",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "favourites"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":[2,3]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/favourites",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "favourites"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":[3,4]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "2"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "3"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "4"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/favourites",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "favourites"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":[2,4]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "2"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "3"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "4"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 601df078-f27a-4ba0-b473-37309405fbc5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/favourites",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "favourites"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"A New Activity\",\"date_created\":\"2024-05-26T19:24:00.912Z\",\"description_material\":\"Materials\",\"description_introduction\":\"Introduction\",\"description_prepare\":\"Preparations\",\"description_main\":\"Main\",\"description_safety\":\"Safety\",\"description_notes\":\"Notes\",\"age_min\":5,\"age_max\":10,\"participants_min\":1,\"participants_max\":3,\"time_min\":10,\"time_max\":30,\"featured\":false,\"tags\":[{\"id\":1,\"activities_count\":0},{\"id\":0,\"group\":\"location\",\"name\":\"At home\",\"activities_count\":0}],\"media_files\":[{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif - Duplicate which should not be persisted\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/bobcat.gif\",\"name\":\"bobcat.gif\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "5"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/5/rating",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "5",
+            "rating"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"rating\":5,\"favourite\":false}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/5/rating",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "5",
+            "rating"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"rating\":4,\"favourite\":true}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "5"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/5/rating",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "5",
+            "rating"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"rating\":3,\"favourite\":false}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "5"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/5/rating",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "5",
+            "rating"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 90248aa5-635a-4dc5-9d6f-90fdea8678b5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities/5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities",
+            "5"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 391f65c8-8a83-4b45-8058-a0808ac4676b)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"An Updated Activity\",\"date_created\":\"2024-05-26T19:24:02.431Z\",\"description_material\":\"Materials\",\"description_introduction\":\"The Introduction Has Been Updated\",\"description_prepare\":\"Preparations\",\"description_main\":\"Main\",\"description_safety\":\"Safety\",\"description_notes\":\"Notes\",\"age_min\":5,\"age_max\":10,\"participants_min\":1,\"participants_max\":3,\"time_min\":10,\"time_max\":30,\"featured\":false,\"tags\":[{\"id\":1,\"activities_count\":0}],\"media_files\":[{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/bobcat.gif\",\"name\":\"bobcat.gif\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 391f65c8-8a83-4b45-8058-a0808ac4676b)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files/1?verify_unused=true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files",
+            "1"
+          ],
+          "query": [
+            {
+              "key": "verify_unused",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 391f65c8-8a83-4b45-8058-a0808ac4676b)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client cb85c51d-2529-49ee-b340-e7fc9da64a09)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "--Boundary_1_1723960219_1716744242666\\r\\nContent-Type: image/jpeg\\r\\nContent-Disposition: form-data; filename=\"cat.jpg\"; name=\"bd7ab893-4235-4ca5-969f-91174213b486\"\\r\\n\\r\\n\ufffd\ufffd\ufffd\ufffd\"",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 0cf9502d-174b-474d-8e4d-da53411108bb)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files/2/file?size=300",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files",
+            "2",
+            "file"
+          ],
+          "query": [
+            {
+              "key": "size",
+              "value": "300"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 47f91a4d-d051-453f-af16-8cddf889a375)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"mime_type\":\"text/xml\",\"uri\":\"data:application/xml;base64,c2VydmVyOg0KICBnemlwOg0KICAgIG1pbmltdW1FbnRpdHlTaXplOiAxMDBieXRlcw0KICB0eXBlOiBzaW1wbGUNCiAgYXBwbGljYXRpb25Db250ZXh0UGF0aDogL2FwaQ0KICBhZG1pbkNvbnRleHRQYXRoOiAvYWRtaW4NCiAgY29ubmVjdG9yOg0KICAgIHR5cGU6IGh0dHANCiAgICBwb3J0OiA4MDgwDQoNCiNsb2dnaW5nOg0KIyAgbGV2ZWw6IElORk8NCiMgIGFwcGVuZGVyczoNCiMgICAgLSB0eXBlOiBjb25zb2xlDQojICAgICAgdGhyZXNob2xkOiBBTEwNCiMgICAgICB0aW1lWm9uZTogVVRDDQojICAgICAgdGFyZ2V0OiBzdGRvdXQNCiMgICAgICBsb2dGb3JtYXQ6ICMgVE9ETw0KIw0KIyBMb2dnaW5nIHNldHRpbmdzLg0KbG9nZ2luZzoNCg0KICAjIFRoZSBkZWZhdWx0IGxldmVsIG9mIGFsbCBsb2dnZXJzLiBDYW4gYmUgT0ZGLCBFUlJPUiwgV0FSTiwgSU5GTywgREVCVUcsIFRSQUNFLCBvciBBTEwuDQogIGxldmVsOiBJTkZPDQoNCiAgIyBMb2dnZXItc3BlY2lmaWMgbGV2ZWxzLg0KICBsb2dnZXJzOg0KDQogICAgc2UuZGV2c2NvdXQ6IERFQlVHDQoNCiAgICAjIEVuYWJsZSBKU09OIHJlcXVlc3QgYW5kIHJlc3BvbnNlIGxvZ2duaW5nOg0KICAgIG9yZy5nbGFzc2Zpc2guamVyc2V5LmZpbHRlci5Mb2dnaW5nRmlsdGVyOiBJTkZPDQoNCiAgICBvcmcuaGliZXJuYXRlLlNRTDogREVCVUcNCiMgICAgb3JnLmhpYmVybmF0ZS50eXBlOiBUUkFDRQ0KDQogIGFwcGVuZGVyczoNCiAgICAtIHR5cGU6IGNvbnNvbGUNCg0KZGF0YWJhc2U6DQogICMgdGhlIG5hbWUgb2YgeW91ciBKREJDIGRyaXZlcg0KICBkcml2ZXJDbGFzczogb3JnLmgyLkRyaXZlcg0KDQogICMgdGhlIHVzZXJuYW1lDQogIHVzZXI6IHNhDQoNCiAgIyB0aGUgcGFzc3dvcmQNCiAgcGFzc3dvcmQ6DQoNCiAgIyB0aGUgSkRCQyBVUkwNCiAgdXJsOiBqZGJjOmgyOm1lbTppbnRlZ3JhdGlvbnRlc3QNCg0KICAjIGFueSBwcm9wZXJ0aWVzIHNwZWNpZmljIHRvIHlvdXIgSkRCQyBkcml2ZXI6DQogIHByb3BlcnRpZXM6DQogICAgY2hhclNldDogVVRGLTgNCiAgICBoaWJlcm5hdGUuZGlhbGVjdDogIm9yZy5oaWJlcm5hdGUuZGlhbGVjdC5IMkRpYWxlY3QiDQogICAgaGliZXJuYXRlLmhibTJkZGwuYXV0bzogImNyZWF0ZS1kcm9wIg0KICAgIGhpYmVybmF0ZS5oYm0yZGRsLmltcG9ydF9maWxlc19zcWxfZXh0cmFjdG9yOiAib3JnLmhpYmVybmF0ZS50b29sLmhibTJkZGwuTXVsdGlwbGVMaW5lc1NxbENvbW1hbmRFeHRyYWN0b3IiDQoNCg0KICAjIHRoZSBtYXhpbXVtIGFtb3VudCBvZiB0aW1lIHRvIHdhaXQgb24gYW4gZW1wdHkgcG9vbCBiZWZvcmUgdGhyb3dpbmcgYW4gZXhjZXB0aW9uDQogIG1heFdhaXRGb3JDb25uZWN0aW9uOiAxcw0KDQogICMgdGhlIFNRTCBxdWVyeSB0byBydW4gd2hlbiB2YWxpZGF0aW5nIGEgY29ubmVjdGlvbidzIGxpdmVuZXNzDQogIHZhbGlkYXRpb25RdWVyeTogIi8qIE15QXBwbGljYXRpb24gSGVhbHRoIENoZWNrICovIFNFTEVDVCAxIg0KDQogICMgdGhlIG1pbmltdW0gbnVtYmVyIG9mIGNvbm5lY3Rpb25zIHRvIGtlZXAgb3Blbg0KICBtaW5TaXplOiA4DQoNCiAgIyB0aGUgbWF4aW11bSBudW1iZXIgb2YgY29ubmVjdGlvbnMgdG8ga2VlcCBvcGVuDQogIG1heFNpemU6IDMyDQoNCiAgIyB3aGV0aGVyIG9yIG5vdCBpZGxlIGNvbm5lY3Rpb25zIHNob3VsZCBiZSB2YWxpZGF0ZWQNCiAgY2hlY2tDb25uZWN0aW9uV2hpbGVJZGxlOiBmYWxzZQ0KDQpkZWZhdWx0VGFnczoNCiAgLSBuYW1lOiAiSGFwcHkiDQogICAgZ3JvdXA6ICJmZWVsaW5ncyINCiAgLSBuYW1lOiAiU2FkIg0KICAgIGdyb3VwOiAiZmVlbGluZ3MiDQogIC0gbmFtZTogIkJvcmVkIg0KICAgIGdyb3VwOiAiZmVlbGluZ3MiDQogIC0gbmFtZTogIlRoaW5rIg0KICAgIGdyb3VwOiAiZmVlbGluZ3MiDQogIC0gbmFtZTogIkV4Y2l0ZWQiDQogICAgZ3JvdXA6ICJmZWVsaW5ncyINCg0KZGVmYXVsdFVzZXJzOg0KICAtIG5hbWU6ICJJTlRFR1JBVElPTiBURVNUIFVTRVIiDQogICAgYXV0aG9yaXphdGlvbl9sZXZlbDogMA0KICAgIGlkZW50aXRpZXM6DQogICAgICAtIHR5cGU6ICJBUEkiDQogICAgICAgIHZhbHVlOiAidXNlciINCiAgLSBuYW1lOiAiSU5URUdSQVRJT04gVEVTVCBNT0RFUkFUT1IiDQogICAgYXV0aG9yaXphdGlvbl9sZXZlbDogMTANCiAgICBpZGVudGl0aWVzOg0KICAgICAgLSB0eXBlOiAiQVBJIg0KICAgICAgICB2YWx1ZTogIm1vZGVyYXRvciINCiAgLSBuYW1lOiAiSU5URUdSQVRJT04gVEVTVCBBRE1JTklTVFJBVE9SIg0KICAgIGF1dGhvcml6YXRpb25fbGV2ZWw6IDIwDQogICAgaWRlbnRpdGllczoNCiAgICAgIC0gdHlwZTogIkFQSSINCiAgICAgICAgdmFsdWU6ICJhZG1pbmlzdHJhdG9yIg0KDQptZWRpYUZpbGVzRm9sZGVyOiAuL3RlbXAvbWVkaWEtZmlsZXMNCg0KdGVtcEZvbGRlcjogLi90ZW1wDQoNCmF1dG9VcGRhdGVJbnRlcnZhbFNlY29uZHM6IDAgIyAwID0gZGlzYWJsZWQNCg0KY3Jhd2xlclVzZXI6ICJDcmF3bGVyIg0K\",\"name\":\"config-integrationtest.yml\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 47f91a4d-d051-453f-af16-8cddf889a375)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files/3/file",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files",
+            "3",
+            "file"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 39c0d128-c11d-4dcd-bddb-74969ded90d6)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 39c0d128-c11d-4dcd-bddb-74969ded90d6)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"mime_type\":\"image/jpeg\",\"uri\":\"http://example.com/profile-alice.jpg\",\"name\":\"Alice's Profile Picture\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 39c0d128-c11d-4dcd-bddb-74969ded90d6)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 39c0d128-c11d-4dcd-bddb-74969ded90d6)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files",
+            "4"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 39c0d128-c11d-4dcd-bddb-74969ded90d6)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files",
+            "4"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/profile-bob.gif\",\"name\":\"Bob's Profile Picture\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 39c0d128-c11d-4dcd-bddb-74969ded90d6)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files",
+            "4"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 39c0d128-c11d-4dcd-bddb-74969ded90d6)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files",
+            "4"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 39c0d128-c11d-4dcd-bddb-74969ded90d6)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/media_files",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "media_files"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 0d65c9a9-8b69-481d-baed-f4913b77e245)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system/roles",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system",
+            "roles"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 4e224c2a-27b1-4482-bee3-c45b2adfa2b9)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system/ping",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system",
+            "ping"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 8b3086e2-1cd5-407d-868a-c4cc4f3832d1)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 8b3086e2-1cd5-407d-868a-c4cc4f3832d1)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"key\":\"new-key\",\"value\":\"new-value\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 8b3086e2-1cd5-407d-868a-c4cc4f3832d1)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 8b3086e2-1cd5-407d-868a-c4cc4f3832d1)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 8b3086e2-1cd5-407d-868a-c4cc4f3832d1)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages",
+            "1"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"key\":\"new-key\",\"value\":\"new-value\",\"valid_to\":\"2024-05-26T22:24:06.612Z\",\"valid_from\":\"2024-05-26T21:24:06.611Z\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 8b3086e2-1cd5-407d-868a-c4cc4f3832d1)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 8b3086e2-1cd5-407d-868a-c4cc4f3832d1)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 8b3086e2-1cd5-407d-868a-c4cc4f3832d1)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"key\":\"a.a\",\"value\":\"value\",\"valid_from\":\"2024-05-26T22:24:06.0Z\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"key\":\"a.a.a\",\"value\":\"value\",\"valid_to\":\"2024-05-26T20:24:06.0Z\",\"valid_from\":\"2024-05-26T19:24:06.0Z\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"key\":\"a.b\",\"value\":\"value\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"key\":\"b.b\",\"value\":\"value\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages?key=a.&valid=now",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "a."
+            },
+            {
+              "key": "valid",
+              "value": "now"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages?key=a.&valid=now_and_future",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "a."
+            },
+            {
+              "key": "valid",
+              "value": "now_and_future"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages?key=a.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "a."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages?key=a.a",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "a.a"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 6abaf37c-4c73-444f-b060-2735daed64f5)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages?key=b",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "b"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 822c5440-8e20-4ba1-9d41-9268e3368050)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"key\":\"fail\",\"value\":\"fail\",\"valid_to\":\"2024-05-26T21:24:06.770Z\",\"valid_from\":\"2024-05-26T22:24:06.770Z\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 822c5440-8e20-4ba1-9d41-9268e3368050)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages",
+            "1"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"key\":\"fail\",\"value\":\"fail\",\"valid_to\":\"2024-05-26T21:24:06.770Z\",\"valid_from\":\"2024-05-26T22:24:06.770Z\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 822c5440-8e20-4ba1-9d41-9268e3368050)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey user"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/system_messages/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "system_messages",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 33b415da-7988-4808-b8dd-fddc2fb6ddc9)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/tags",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "tags"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 33b415da-7988-4808-b8dd-fddc2fb6ddc9)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/tags",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "tags"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"group\":\"G\",\"name\":\"N\",\"activities_count\":0}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 33b415da-7988-4808-b8dd-fddc2fb6ddc9)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/tags",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "tags"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 33b415da-7988-4808-b8dd-fddc2fb6ddc9)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/tags/6",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "tags",
+            "6"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 33b415da-7988-4808-b8dd-fddc2fb6ddc9)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/tags/6",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "tags",
+            "6"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 33b415da-7988-4808-b8dd-fddc2fb6ddc9)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/tags",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "tags"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 940bda4e-be51-4831-98dc-13d248356863)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/activities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "activities"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"A New Activity\",\"date_created\":\"2024-05-26T19:24:07.664Z\",\"description_material\":\"Materials\",\"description_introduction\":\"Introduction\",\"description_prepare\":\"Preparations\",\"description_main\":\"Main\",\"description_safety\":\"Safety\",\"description_notes\":\"Notes\",\"age_min\":5,\"age_max\":10,\"participants_min\":1,\"participants_max\":3,\"time_min\":10,\"time_max\":30,\"featured\":false,\"tags\":[{\"id\":1,\"activities_count\":0},{\"id\":0,\"group\":\"location\",\"name\":\"At home\",\"activities_count\":0}],\"media_files\":[{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/ant.gif\",\"name\":\"ant.gif - Duplicate which should not be persisted\"},{\"id\":0,\"mime_type\":\"image/gif\",\"uri\":\"http://example.com/bobcat.gif\",\"name\":\"bobcat.gif\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 940bda4e-be51-4831-98dc-13d248356863)"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v2/tags/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v2",
+            "tags",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 063790ff-af53-47ee-820d-cccc3c58df45)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"User with too high authorization level\",\"authorization_level\":99,\"identities\":[{\"id\":0,\"date_created\":\"2024-05-26T19:24:08.372Z\",\"type\":\"API\",\"value\":\"some api key\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 0c3e790b-c10b-4934-a296-56b487432f38)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey moderator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users/profile",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "profile"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client c3e4b6fc-ad78-4170-8c8b-2d30d6cc6400)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users?attrs=id%2Cidentities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users"
+          ],
+          "query": [
+            {
+              "key": "attrs",
+              "value": "id,identities"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client c3e4b6fc-ad78-4170-8c8b-2d30d6cc6400)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"new user\",\"authorization_level\":0,\"identities\":[{\"id\":0,\"date_created\":\"2024-05-26T19:24:08.505Z\",\"type\":\"API\",\"value\":\"some api key\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client c3e4b6fc-ad78-4170-8c8b-2d30d6cc6400)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users?attrs=id%2Cidentities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users"
+          ],
+          "query": [
+            {
+              "key": "attrs",
+              "value": "id,identities"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client c3e4b6fc-ad78-4170-8c8b-2d30d6cc6400)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "4"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client c3e4b6fc-ad78-4170-8c8b-2d30d6cc6400)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "4"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client c3e4b6fc-ad78-4170-8c8b-2d30d6cc6400)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users?attrs=id%2Cidentities",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users"
+          ],
+          "query": [
+            {
+              "key": "attrs",
+              "value": "id,identities"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 0417baa3-64a2-451a-b76b-9de4af9af5a3)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 0417baa3-64a2-451a-b76b-9de4af9af5a3)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "1"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":0,\"name\":\"Don't care about the name\",\"authorization_level\":99,\"identities\":[{\"id\":0,\"date_created\":\"2024-05-26T19:24:08.576Z\",\"type\":\"API\",\"value\":\"some api key\"}]}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "scout-api (test client 0417baa3-64a2-451a-b76b-9de4af9af5a3)"
+          },
+          {
+            "key": "Authorization",
+            "value": "ApiKey administrator"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/api/v1/users/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "api",
+            "v1",
+            "users",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "info": {
+    "_postman_id": "9a707ca6-ee81-413c-a9d4-f81020284c84",
+    "name": "CONVERTED_catwatch_TEST",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33435539"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/contributors?organizations=IBM",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "contributors"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "IBM"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/contributors?organizations=IBM,Sun&sortBy=-name",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "contributors"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "IBM,Sun"
+            },
+            {
+              "key": "sortBy",
+              "value": "-name"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/contributors?organizations=IBM,Sun&sortBy=name",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "contributors"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "IBM,Sun"
+            },
+            {
+              "key": "sortBy",
+              "value": "name"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/contributors?organizations=IBM,Sun&sortBy=-personalProjectsCount",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "contributors"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "IBM,Sun"
+            },
+            {
+              "key": "sortBy",
+              "value": "-personalProjectsCount"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/contributors?organizations=IBM,Sun&sortBy=personalProjectsCount",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "contributors"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "IBM,Sun"
+            },
+            {
+              "key": "sortBy",
+              "value": "personalProjectsCount"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/contributors?organizations=IBM,Sun&sortBy=-organizationalProjectsCount",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "contributors"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "IBM,Sun"
+            },
+            {
+              "key": "sortBy",
+              "value": "-organizationalProjectsCount"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/contributors?organizations=IBM,Sun&sortBy=-organizationalCommitsCount",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "contributors"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "IBM,Sun"
+            },
+            {
+              "key": "sortBy",
+              "value": "-organizationalCommitsCount"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/contributors?organizations=%20IBM,Sun&start_date=2024-05-29T16:04:11Z&end_date=2024-06-02T04:04:11Z",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "contributors"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": " IBM,Sun"
+            },
+            {
+              "key": "start_date",
+              "value": "2024-05-29T16:04:11Z"
+            },
+            {
+              "key": "end_date",
+              "value": "2024-06-02T04:04:11Z"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/projects?organizations=zalando",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "projects"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "zalando"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/statistics?organizations=organization1,organization2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "statistics"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "organization1,organization2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/statistics?organizations=organization1&start_date=2024-05-29T04:05:12Z&end_date=2024-05-31T04:04:12Z",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "statistics"
+          ],
+          "query": [
+            {
+              "key": "organizations",
+              "value": "organization1"
+            },
+            {
+              "key": "start_date",
+              "value": "2024-05-29T04:05:12Z"
+            },
+            {
+              "key": "end_date",
+              "value": "2024-05-31T04:04:12Z"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/json, application/*+json, application/*+json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/config",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "config"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "okhttp/2.4.0"
+          },
+          {
+            "key": "Accept",
+            "value": "text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:38888/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [],
+          "query": []
+        }
+      },
+      "response": []
+    }
+  ]
+}

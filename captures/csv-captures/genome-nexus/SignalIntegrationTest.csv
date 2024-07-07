@@ -1,0 +1,9 @@
+http.request.method|http.request.full_uri|http.file_data
+GET|http://localhost:38897/signal/mutation?hugoGeneSymbol=INVALID|
+GET|http://localhost:38897/signal/mutation?hugoGeneSymbol=TP53|
+GET|http://localhost:38897/signal/mutation?hugoGeneSymbol=BRCA2|
+GET|http://localhost:38897/signal/mutation/hgvs/17:g.7574003_7574004insGAACATCTCGAAGCGCTCACGCCCAC|
+GET|http://localhost:38897/signal/mutation/hgvs/17:g.7577018C%3EG|
+GET|http://localhost:38897/signal/mutation/hgvs/13:g.32893385_32893389delTATTC|
+GET|http://localhost:38897/signal/mutation/hgvs/13:g.32893378C%3ET|
+GET|http://localhost:38897/signal/mutation/hgvs/10:g.89624230_89624231delAC|

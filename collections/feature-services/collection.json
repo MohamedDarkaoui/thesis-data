@@ -1,0 +1,562 @@
+{
+  "info": {
+    "_postman_id": "9a707ca6-ee81-413c-a9d4-f81020284c84",
+    "name": "CONVERTED_feature-services_TEST",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33435539"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_3"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/features/Feature_1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "features",
+            "Feature_1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/features/newFeature",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "features",
+            "newFeature"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "description=New%20Feature%20Description",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/features/Feature_1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "features",
+            "Feature_1"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "description=New%20Feature%20Description",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/features",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "features"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/features/Feature_1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "features",
+            "Feature_1"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "description=Existing%20Feature%20Description",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_2/configurations/Product_2_Configuration_1/features/Feature_C",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_2",
+            "configurations",
+            "Product_2_Configuration_1",
+            "features",
+            "Feature_C"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations/Product_1_Configuration_2/features/Feature_3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations",
+            "Product_1_Configuration_2",
+            "features",
+            "Feature_3"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/constraints/requires",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "constraints",
+            "requires"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "sourceFeature=Feature_1&requiredFeature=Feature_2",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/constraints/excludes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "constraints",
+            "excludes"
+          ],
+          "query": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "sourceFeature=Feature_1&excluded=Feature_2",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/constraints/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "constraints",
+            "1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations/Product_1_Configuration_1/features/Feature_1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations",
+            "Product_1_Configuration_1",
+            "features",
+            "Feature_1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations/Product_1_Configuration_1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations",
+            "Product_1_Configuration_1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations/Product_1_Configuration_2/features/Feature_1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations",
+            "Product_1_Configuration_2",
+            "features",
+            "Feature_1"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations/Product_1_Configuration_2/features/Feature_B",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations",
+            "Product_1_Configuration_2",
+            "features",
+            "Feature_B"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations/newConfig",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations",
+            "newConfig"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations/Product_1_Configuration_2/features/Feature_2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations",
+            "Product_1_Configuration_2",
+            "features",
+            "Feature_2"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:38888/products/Product_1/configurations/Product_1_Configuration_2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": 38888,
+          "path": [
+            "products",
+            "Product_1",
+            "configurations",
+            "Product_1_Configuration_2"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    }
+  ]
+}

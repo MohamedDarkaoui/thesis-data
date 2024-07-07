@@ -1,0 +1,16 @@
+http.request.method|http.request.full_uri|http.file_data
+POST|http://localhost:38896/annotation/genomic/?fields=annotation_summary,nucleotide_context|[{"chromosome":"12","start":25398284,"end":25398284,"referenceAllele":"C","variantAllele":"A"},{"chromosome":"12","start":25398283,"end":25398284,"referenceAllele":"AC","variantAllele":"AA"}]
+POST|http://localhost:38896/annotation/genomic/?fields=annotation_summary,nucleotide_context|[{"chromosome":"7","start":140453136,"end":140453136,"referenceAllele":"A","variantAllele":"T"}]
+POST|http://localhost:38896/annotation/genomic/?fields=my_variant_info|[{"chromosome":"10","start":89624245,"end":89624245,"referenceAllele":"G","variantAllele":"T"},{"chromosome":"10.0","start":89624242,"end":89624243,"referenceAllele":"AA","variantAllele":"-"}]
+POST|http://localhost:38896/annotation/genomic/?fields=annotation_summary,nucleotide_context|[{"chromosome":"4","start":55152095,"end":55152107,"referenceAllele":"ATCATGCATGATT","variantAllele":"A"}]
+GET|http://localhost:38896/annotation/MT:g.10360G%3EA|
+POST|http://localhost:38896/annotation/|["MT:g.10360G>A"]
+POST|http://localhost:38896/annotation/|["MT:g.10360G>A"]
+POST|http://localhost:38896/annotation/genomic/?fields=annotation_summary,nucleotide_context|[{"chromosome":"7","start":140453136,"end":140453136,"referenceAllele":"A","variantAllele":"T"}]
+GET|http://localhost:38896/annotation/genomic/7,140453136,140453136,A,T?fields=annotation_summary,nucleotide_context|
+GET|http://localhost:38896/annotation/genomic/7,140453136,140453136,A,T?fields=annotation_summary,nucleotide_context|
+GET|http://localhost:38896/annotation/12:g.43130875C%3EG|
+POST|http://localhost:38896/annotation/|["12:g.43130875C>G","12:g.43130996C>G","INVALID"]
+POST|http://localhost:38896/annotation/|["12:g.43130875C>G","12:g.43130996C>G","INVALID"]
+POST|http://localhost:38896/annotation/|["12:g.43130875C>G","12:g.43130996C>G","INVALID"]
+POST|http://localhost:38896/annotation/|["12:g.43130875C>G","12:g.43130996C>G","INVALID"]

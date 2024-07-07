@@ -1,0 +1,1200 @@
+{
+  "info": {
+    "_postman_id": "9a707ca6-ee81-413c-a9d4-f81020284c84",
+    "name": "CONVERTED_disease-sh-api_TEST",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33435539"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/continents",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "continents"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/continents/europe",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "continents",
+            "europe"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/continents/europe",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "continents",
+            "europe"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/all",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "all"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/continents/europe%7Casia",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "continents",
+            "europe%7Casia"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/continents/euro?strict=false",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "continents",
+            "euro"
+          ],
+          "query": [
+            {
+              "key": "strict",
+              "value": "false"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/continents/euro?strict=false",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "continents",
+            "euro"
+          ],
+          "query": [
+            {
+              "key": "strict",
+              "value": "false"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/continents/asdfghjkl",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "continents",
+            "asdfghjkl"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/all?lastdays=15",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "all"
+          ],
+          "query": [
+            {
+              "key": "lastdays",
+              "value": "15"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/continents/asdfghjkl",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "continents",
+            "asdfghjkl"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TZ",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TZ"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TH",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TH"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TL",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TL"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TG",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TG"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TK",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TK"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TO",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TO"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TT",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TT"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TN",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TN"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/vaccine/coverage/countries/TR",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "vaccine",
+            "coverage",
+            "countries",
+            "TR"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/American%20Samoa",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "American%20Samoa"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/nyt/counties/incorrect,%20cook",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "nyt",
+            "counties",
+            "incorrect,%20cook"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/192",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "192"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Andorra",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Andorra"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Angola",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Angola"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/nyt/counties/DoesntExist",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "nyt",
+            "counties",
+            "DoesntExist"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/208",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "208"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Antigua%20and%20Barbuda",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Antigua%20and%20Barbuda"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/nyt/states?lastdays=2",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "nyt",
+            "states"
+          ],
+          "query": [
+            {
+              "key": "lastdays",
+              "value": "2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Denmark",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Denmark"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/388",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "388"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Djibouti",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Djibouti"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/392",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "392"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/832",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "832"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Dominica",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Dominica"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Iceland",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Iceland"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/104",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "104"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/India",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "India"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/104",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "104"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Maldives",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Maldives"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/654",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "654"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Mali",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Mali"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/659",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "659"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Malta",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Malta"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Niger",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Niger"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/744",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "744"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/858",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "858"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Saint%20Kitts%20and%20Nevis",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Saint%20Kitts%20and%20Nevis"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v3/covid-19/historical/860",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v3",
+            "covid-19",
+            "historical",
+            "860"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Saint%20Lucia",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Saint%20Lucia"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:38888/v2/historical/Turkmenistan",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": 38888,
+          "path": [
+            "v2",
+            "historical",
+            "Turkmenistan"
+          ],
+          "query": []
+        }
+      },
+      "response": []
+    }
+  ]
+}

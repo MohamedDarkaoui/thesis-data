@@ -1,0 +1,3 @@
+http.request.method|http.request.full_uri|http.file_data
+GET|http://localhost:38891/annotation/dbsnp/rs116035550|
+POST|http://localhost:38891/annotation/dbsnp/|["rs116035550","rs1333049","asdas"]
