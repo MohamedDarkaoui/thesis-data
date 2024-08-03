@@ -150,8 +150,8 @@ def plot_average_and_calculate_growth(sutname, runs_seeded, runs_unseeded, metri
 
 # ========================================= scout-api =========================================
 
-# runs_seeded = [2, 3, 5]
-# runs_unseeded = [1, 2, 5]
+# runs_seeded = [1, 2, 3]
+# runs_unseeded = [1, 2, 3]
 # percentage_point = 50
 # growth = plot_average_and_calculate_growth(sutname="scout-api", runs_seeded=runs_seeded, runs_unseeded=runs_unseeded, interval=1, metric='coveredLines' ,devisor='numberOfLines', percentage_point=percentage_point)
 
