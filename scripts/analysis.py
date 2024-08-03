@@ -87,7 +87,7 @@ sut_paths: Dict[str, Dict[str, List[str]]] = {
         "unseeded": [
             'results/genome-nexus/unseeded/run1/targets.json',
             'results/genome-nexus/unseeded/run2/targets.json',
-            'results/genome-nexus/unseeded/run4/targets.json'
+            'results/genome-nexus/unseeded/run3/targets.json'
         ]
     },
     "scout-api": {
